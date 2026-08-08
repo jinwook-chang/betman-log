@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "deposit-2026-07-23",
+      "kind": "deposit",
+      "occurred_at_kst": "2026-07-23T00:00:00+09:00",
+      "amount": 10000,
+      "decision_id": null,
+      "source": "README.md and records/2026-07-23.md balance reconciliation"
+    },
+    {
+      "id": "deposit-2026-08-02",
+      "kind": "deposit",
+      "occurred_at_kst": "2026-08-02T00:00:00+09:00",
+      "amount": 10000,
+      "decision_id": null,
+      "source": "README.md and records/2026-08-01.md to records/2026-08-02.md balance reconciliation"
+    }
+  ]
+}
