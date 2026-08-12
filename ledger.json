@@ -16,6 +16,15 @@
       "amount": 10000,
       "decision_id": null,
       "source": "README.md and records/2026-08-01.md to records/2026-08-02.md balance reconciliation"
+    },
+    {
+      "id": "ticket-2026-08-11-g101-260094-1682-sf-win",
+      "kind": "action_ticket",
+      "occurred_at_kst": "2026-08-11T00:00:00+09:00",
+      "occurred_at_precision": "date",
+      "amount": 1000,
+      "decision_id": "action-2026-08-11-g101-260094-1682-sf-win-253",
+      "source": "User-confirmed KRW 1,000 purchase recorded in records/2026-08-11.md; exact purchase time was not captured"
     }
   ]
 }
