@@ -25,6 +25,15 @@
       "amount": 1000,
       "decision_id": "action-2026-08-11-g101-260094-1682-sf-win-253",
       "source": "User-confirmed KRW 1,000 purchase recorded in records/2026-08-11.md; exact purchase time was not captured"
+    },
+    {
+      "id": "ticket-2026-08-18-g101-260097-4770-est-win",
+      "kind": "action_ticket",
+      "occurred_at_kst": "2026-08-18T00:00:00+09:00",
+      "occurred_at_precision": "date",
+      "amount": 1000,
+      "decision_id": "action-2026-08-18-g101-260097-4770-est-win-255",
+      "source": "User-confirmed KRW 1,000 purchase recorded in records/2026-08-18.md; exact purchase time was not captured"
     }
   ]
 }
