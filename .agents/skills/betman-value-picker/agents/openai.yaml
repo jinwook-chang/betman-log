@@ -1,0 +1,4 @@
+interface:
+  display_name: "Betman 가격차·포트폴리오"
+  short_description: "IAB 발매판과 스포츠 시장근거를 결합한 가격차·자금 배분"
+  default_prompt: "Use $betman-value-picker with the signed-in in-app browser and the applicable sports-data and read-only market skills to audit the live Betman slate, compare my pick fairly, and allocate a clearly labeled portfolio."

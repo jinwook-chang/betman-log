@@ -1,0 +1,212 @@
+{
+  "version": 3,
+  "skills": {
+    "betting": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/betting/SKILL.md",
+      "skillFolderHash": "61c3a0d72927d00a27d255e96ffcaa5f5421a9ca",
+      "installedAt": "2026-07-23T12:17:30.200Z",
+      "updatedAt": "2026-08-12T03:58:07.612Z"
+    },
+    "cbb-data": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/cbb-data/SKILL.md",
+      "skillFolderHash": "718c72a262d3ce09edf0e9dd396d2f857725e1b6",
+      "installedAt": "2026-08-12T03:58:07.614Z",
+      "updatedAt": "2026-08-12T03:58:07.614Z"
+    },
+    "cfb-data": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/cfb-data/SKILL.md",
+      "skillFolderHash": "b2b70a33a0f8121a248c930f7f44d7467d65d5a2",
+      "installedAt": "2026-08-12T03:58:07.614Z",
+      "updatedAt": "2026-08-12T03:58:07.614Z"
+    },
+    "cricket-data": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/cricket-data/SKILL.md",
+      "skillFolderHash": "9e5d602dc6e78991c605cb92a114ff80091df5f9",
+      "installedAt": "2026-08-12T03:58:07.614Z",
+      "updatedAt": "2026-08-12T03:58:07.614Z"
+    },
+    "esports": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/esports/SKILL.md",
+      "skillFolderHash": "4587637eec3b5dd77e669f248fdc0804b05094be",
+      "installedAt": "2026-08-12T03:58:07.615Z",
+      "updatedAt": "2026-08-12T03:58:07.615Z"
+    },
+    "fastf1": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/fastf1/SKILL.md",
+      "skillFolderHash": "23c9acf5a70bd6995406206e705fea2cfd882ddf",
+      "installedAt": "2026-08-12T03:58:07.615Z",
+      "updatedAt": "2026-08-12T03:58:07.615Z"
+    },
+    "football-data": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/football-data/SKILL.md",
+      "skillFolderHash": "4d9b0c1871cbc919aa8436cb9667672b560b6f67",
+      "installedAt": "2026-08-12T03:58:07.615Z",
+      "updatedAt": "2026-08-12T03:58:07.615Z"
+    },
+    "golf-data": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/golf-data/SKILL.md",
+      "skillFolderHash": "5ecfc252ac9ae37b23ad563abb903d5c08bfa651",
+      "installedAt": "2026-08-12T03:58:07.616Z",
+      "updatedAt": "2026-08-12T03:58:07.616Z"
+    },
+    "kalshi": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/kalshi/SKILL.md",
+      "skillFolderHash": "4a60a14f2e6738f1cdd1f8d91f6229bf168803b9",
+      "installedAt": "2026-08-12T03:58:07.616Z",
+      "updatedAt": "2026-08-12T03:58:07.616Z"
+    },
+    "markets": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/markets/SKILL.md",
+      "skillFolderHash": "77d3f08d7f5b2e9f6310f88573b0578127dd3989",
+      "installedAt": "2026-08-12T03:58:07.616Z",
+      "updatedAt": "2026-08-12T03:58:07.616Z"
+    },
+    "metadata": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/metadata/SKILL.md",
+      "skillFolderHash": "2056bf888a0e83834aa10e05c8787303acf748aa",
+      "installedAt": "2026-08-12T03:58:07.617Z",
+      "updatedAt": "2026-08-12T03:58:07.617Z"
+    },
+    "mlb-data": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/mlb-data/SKILL.md",
+      "skillFolderHash": "7b481015eff86c2096182e75899254ccfa622dd2",
+      "installedAt": "2026-08-12T03:58:07.617Z",
+      "updatedAt": "2026-08-12T03:58:07.617Z"
+    },
+    "nba-data": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/nba-data/SKILL.md",
+      "skillFolderHash": "954d0cce1f7cb4df3a53a76d5f7de447ebdea692",
+      "installedAt": "2026-08-12T03:58:07.617Z",
+      "updatedAt": "2026-08-12T03:58:07.617Z"
+    },
+    "nfl-data": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/nfl-data/SKILL.md",
+      "skillFolderHash": "35dddd6a8c45e5771b5c1064db7c82dc491decbb",
+      "installedAt": "2026-08-12T03:58:07.617Z",
+      "updatedAt": "2026-08-12T03:58:07.617Z"
+    },
+    "nhl-data": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/nhl-data/SKILL.md",
+      "skillFolderHash": "3053d00b84617f539e5aba668e8ccb00f350ad9c",
+      "installedAt": "2026-08-12T03:58:07.618Z",
+      "updatedAt": "2026-08-12T03:58:07.618Z"
+    },
+    "polymarket": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/polymarket/SKILL.md",
+      "skillFolderHash": "863e47600581cf3f51fd907b1917c89dda5acfc5",
+      "installedAt": "2026-08-12T03:58:07.618Z",
+      "updatedAt": "2026-08-12T03:58:07.618Z"
+    },
+    "sports-news": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/sports-news/SKILL.md",
+      "skillFolderHash": "7778cfb766076aac34084a61b6fcb2efe7093cd9",
+      "installedAt": "2026-08-12T03:58:07.618Z",
+      "updatedAt": "2026-08-12T03:58:07.618Z"
+    },
+    "tennis-data": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/tennis-data/SKILL.md",
+      "skillFolderHash": "362a7c7d781cc5aaa79143b340827ea75b9fb1d5",
+      "installedAt": "2026-08-12T03:58:07.619Z",
+      "updatedAt": "2026-08-12T03:58:07.619Z"
+    },
+    "volleyball-data": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/volleyball-data/SKILL.md",
+      "skillFolderHash": "d79525b8e2a392a3cb61d11abd2a38a5f52b1ff1",
+      "installedAt": "2026-08-12T03:58:07.619Z",
+      "updatedAt": "2026-08-12T03:58:07.619Z"
+    },
+    "wnba-data": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/wnba-data/SKILL.md",
+      "skillFolderHash": "42acfd46419519b4999b94a06a560dbee471e5b1",
+      "installedAt": "2026-08-12T03:58:07.619Z",
+      "updatedAt": "2026-08-12T03:58:07.619Z"
+    },
+    "xctf-data": {
+      "source": "machina-sports/sports-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/machina-sports/sports-skills.git",
+      "skillPath": "skills/xctf-data/SKILL.md",
+      "skillFolderHash": "345982023cf647044c798c5e943b814796b1df3c",
+      "installedAt": "2026-08-12T03:58:07.620Z",
+      "updatedAt": "2026-08-12T03:58:07.620Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "dexto",
+    "firebender",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "warp"
+  ]
+}
