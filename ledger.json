@@ -2,6 +2,15 @@
   "version": 1,
   "entries": [
     {
+      "id": "ticket-2026-09-06-g101-260105-9642-over",
+      "kind": "action_ticket",
+      "occurred_at_kst": "2026-09-06T00:00:00+09:00",
+      "occurred_at_precision": "date",
+      "amount": 2000,
+      "decision_id": "action-2026-08-31-b484de43d23d4ef98d3c",
+      "source": "User-confirmed KRW 2,000 Arsenal Chelsea over 2.5 purchase in records/2026-09-06.md; exact purchase time unknown; prior quoted odds 1.67 assumed"
+    },
+    {
       "id": "deposit-2026-07-23",
       "kind": "deposit",
       "occurred_at_kst": "2026-07-23T00:00:00+09:00",
