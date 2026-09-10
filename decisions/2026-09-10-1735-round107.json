@@ -1,0 +1,4188 @@
+{
+  "decision": "PASS",
+  "mode": "value",
+  "action_opt_in": false,
+  "policy_version": "2026-09-07-v4.2",
+  "as_of_kst": "2026-09-10T17:35:53.038043+09:00",
+  "input_snapshot_kst": "2026-09-10T17:31:00+09:00",
+  "scope": "candidate-only",
+  "board_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+  "board_snapshot_sha256": "5e18a431a113ce91f0c343d80f387ff7b088d610f00a03c73d6b1747429e5f8e",
+  "coverage": {
+    "open_selection_count": 18,
+    "evaluated_open_selection_count": 18,
+    "unevaluated_selection_count": 0,
+    "evaluated_fraction": 1,
+    "expected_value_parlay_count": 0,
+    "evaluated_value_parlay_count": 0,
+    "missing_value_parlay_count": 0,
+    "value_parlay_search_complete": true,
+    "claim_scope": "evaluated-only"
+  },
+  "bankroll": 43870,
+  "equity_at_cost": 43870,
+  "open_exposure": {
+    "tickets": [],
+    "total_stake": 0,
+    "tail_stake": 0,
+    "by_event": {},
+    "by_cluster": {}
+  },
+  "unit": 2000,
+  "purchase_increment": 1000,
+  "base_ticket_stake": 2000,
+  "purchase_ceiling": 43870,
+  "weekly_cycle": {
+    "id": "2026-09-07",
+    "cycle_start_kst": "2026-09-07T00:00:00+09:00",
+    "cycle_end_kst": "2026-09-14T00:00:00+09:00",
+    "ledger_path": "/Users/jinwook/Desktop/betmen/ledger.json",
+    "ledger_entry_count": 0,
+    "confirmed_deposit_total": 0,
+    "action_fallback_available": true,
+    "action_fallback_used_decision_ids": [],
+    "open_action_decision_ids": [],
+    "ledger_snapshot_sha256": "49a3557266ccc752dbe643051c515fa3ae5e61146bc0a10c0d2c2798717e0d8e",
+    "verified_at_kst": "2026-09-10T17:31:00+09:00"
+  },
+  "value": {
+    "decision": "PASS",
+    "equity_at_cost": 43870,
+    "existing_open_stake": 0,
+    "existing_open_tail_stake": 0,
+    "total_stake": 0,
+    "reserve": 43870,
+    "maximum_loss": 0,
+    "event_exposure_after": {},
+    "cluster_exposure_after": {},
+    "total_open_exposure_after": 0,
+    "tail_open_exposure_after": 0,
+    "picks": [],
+    "rejected": [
+      {
+        "id": "0582-home",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "PSV Eindhoven vs Shakhtar Donetsk home",
+        "odds": 1.39,
+        "break_even_probability": 0.719424,
+        "market_ev": -0.105973,
+        "robust_ev": -0.120263,
+        "betman_normalized_probability": 0.639832,
+        "betman_market_payout_rate": 0.889366,
+        "relative_ratio_mid": 0.00524,
+        "relative_ratio_low": -0.010827,
+        "ev_price_floor": 1.61,
+        "minimum_acceptable_odds": 1.63,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0582-draw",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "PSV Eindhoven vs Shakhtar Donetsk draw",
+        "odds": 4.3,
+        "break_even_probability": 0.232558,
+        "market_ev": -0.150621,
+        "robust_ev": -0.193621,
+        "betman_normalized_probability": 0.206829,
+        "betman_market_payout_rate": 0.889366,
+        "relative_ratio_mid": -0.044961,
+        "relative_ratio_low": -0.093311,
+        "ev_price_floor": 5.34,
+        "minimum_acceptable_odds": 6.73,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0582-away",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "PSV Eindhoven vs Shakhtar Donetsk away",
+        "odds": 5.8,
+        "break_even_probability": 0.172414,
+        "market_ev": -0.076145,
+        "robust_ev": -0.134145,
+        "betman_normalized_probability": 0.153339,
+        "betman_market_payout_rate": 0.889366,
+        "relative_ratio_mid": 0.038779,
+        "relative_ratio_low": -0.026436,
+        "ev_price_floor": 6.7,
+        "minimum_acceptable_odds": 9.21,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0591-home",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "Fenerbahce vs AS Roma home",
+        "odds": 3.15,
+        "break_even_probability": 0.31746,
+        "market_ev": -0.143239,
+        "robust_ev": -0.174739,
+        "betman_normalized_probability": 0.282436,
+        "betman_market_payout_rate": 0.889673,
+        "relative_ratio_mid": -0.036994,
+        "relative_ratio_low": -0.072401,
+        "ev_price_floor": 3.82,
+        "minimum_acceptable_odds": 4.42,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0591-draw",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "Fenerbahce vs AS Roma draw",
+        "odds": 3.5,
+        "break_even_probability": 0.285714,
+        "market_ev": -0.072081,
+        "robust_ev": -0.107081,
+        "betman_normalized_probability": 0.254192,
+        "betman_market_payout_rate": 0.889673,
+        "relative_ratio_mid": 0.042988,
+        "relative_ratio_low": 0.003648,
+        "ev_price_floor": 3.92,
+        "minimum_acceptable_odds": 4.56,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0591-away",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "Fenerbahce vs AS Roma away",
+        "odds": 1.92,
+        "break_even_probability": 0.520833,
+        "market_ev": -0.111246,
+        "robust_ev": -0.130446,
+        "betman_normalized_probability": 0.463372,
+        "betman_market_payout_rate": 0.889673,
+        "relative_ratio_mid": -0.001033,
+        "relative_ratio_low": -0.022614,
+        "ev_price_floor": 2.23,
+        "minimum_acceptable_odds": 2.35,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0608-home",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "Bayern Munich vs Bodo/Glimt home",
+        "odds": 1.08,
+        "break_even_probability": 0.925926,
+        "market_ev": -0.033608,
+        "robust_ev": -0.044615,
+        "betman_normalized_probability": 0.824176,
+        "betman_market_payout_rate": 0.89011,
+        "relative_ratio_mid": 0.0857,
+        "relative_ratio_low": 0.073333,
+        "ev_price_floor": 1.16,
+        "minimum_acceptable_odds": 1.16,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0608-draw",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "Bayern Munich vs Bodo/Glimt draw",
+        "odds": 8.1,
+        "break_even_probability": 0.123457,
+        "market_ev": -0.458442,
+        "robust_ev": -0.539442,
+        "betman_normalized_probability": 0.10989,
+        "betman_market_payout_rate": 0.89011,
+        "relative_ratio_mid": -0.391583,
+        "relative_ratio_low": -0.482583,
+        "ev_price_floor": 17.59,
+        "minimum_acceptable_odds": 84.69,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0608-away",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "Bayern Munich vs Bodo/Glimt away",
+        "odds": 13.5,
+        "break_even_probability": 0.074074,
+        "market_ev": -0.4825,
+        "robust_ev": -0.6175,
+        "betman_normalized_probability": 0.065934,
+        "betman_market_payout_rate": 0.89011,
+        "relative_ratio_mid": -0.418611,
+        "relative_ratio_low": -0.570278,
+        "ev_price_floor": 35.3,
+        "minimum_acceptable_odds": null,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0617-home",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "Manchester United vs Sabah FK home",
+        "odds": 1.07,
+        "break_even_probability": 0.934579,
+        "market_ev": -0.050208,
+        "robust_ev": -0.062334,
+        "betman_normalized_probability": 0.832014,
+        "betman_market_payout_rate": 0.890255,
+        "relative_ratio_mid": 0.066876,
+        "relative_ratio_low": 0.053255,
+        "ev_price_floor": 1.17,
+        "minimum_acceptable_odds": 1.17,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0617-draw",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "Manchester United vs Sabah FK draw",
+        "odds": 7.7,
+        "break_even_probability": 0.12987,
+        "market_ev": -0.373737,
+        "robust_ev": -0.450737,
+        "betman_normalized_probability": 0.115618,
+        "betman_market_payout_rate": 0.890255,
+        "relative_ratio_mid": -0.296536,
+        "relative_ratio_low": -0.383028,
+        "ev_price_floor": 14.02,
+        "minimum_acceptable_odds": 37.08,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0617-away",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "Manchester United vs Sabah FK away",
+        "odds": 17,
+        "break_even_probability": 0.058824,
+        "market_ev": -0.472819,
+        "robust_ev": -0.642819,
+        "betman_normalized_probability": 0.052368,
+        "betman_market_payout_rate": 0.890255,
+        "relative_ratio_mid": -0.407831,
+        "relative_ratio_low": -0.598788,
+        "ev_price_floor": 47.6,
+        "minimum_acceptable_odds": null,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0626-home",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "Slavia Prague vs Lens home",
+        "odds": 2.33,
+        "break_even_probability": 0.429185,
+        "market_ev": -0.161025,
+        "robust_ev": -0.184325,
+        "betman_normalized_probability": 0.381711,
+        "betman_market_payout_rate": 0.889386,
+        "relative_ratio_mid": -0.05668,
+        "relative_ratio_low": -0.082878,
+        "ev_price_floor": 2.87,
+        "minimum_acceptable_odds": 3.14,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0626-draw",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "Slavia Prague vs Lens draw",
+        "odds": 3.3,
+        "break_even_probability": 0.30303,
+        "market_ev": -0.08788,
+        "robust_ev": -0.12088,
+        "betman_normalized_probability": 0.269511,
+        "betman_market_payout_rate": 0.889386,
+        "relative_ratio_mid": 0.025562,
+        "relative_ratio_low": -0.011542,
+        "ev_price_floor": 3.76,
+        "minimum_acceptable_odds": 4.33,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0626-away",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "Slavia Prague vs Lens away",
+        "odds": 2.55,
+        "break_even_probability": 0.392157,
+        "market_ev": -0.073012,
+        "robust_ev": -0.098512,
+        "betman_normalized_probability": 0.348779,
+        "betman_market_payout_rate": 0.889386,
+        "relative_ratio_mid": 0.042279,
+        "relative_ratio_low": 0.013608,
+        "ev_price_floor": 2.84,
+        "minimum_acceptable_odds": 3.1,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0634-home",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "Como vs RB Leipzig home",
+        "odds": 1.7,
+        "break_even_probability": 0.588235,
+        "market_ev": -0.065962,
+        "robust_ev": -0.082962,
+        "betman_normalized_probability": 0.522796,
+        "betman_market_payout_rate": 0.888753,
+        "relative_ratio_mid": 0.050953,
+        "relative_ratio_low": 0.031825,
+        "ev_price_floor": 1.88,
+        "minimum_acceptable_odds": 1.94,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0634-draw",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "Como vs RB Leipzig draw",
+        "odds": 3.7,
+        "break_even_probability": 0.27027,
+        "market_ev": -0.147264,
+        "robust_ev": -0.184264,
+        "betman_normalized_probability": 0.240203,
+        "betman_market_payout_rate": 0.888753,
+        "relative_ratio_mid": -0.040525,
+        "relative_ratio_low": -0.082156,
+        "ev_price_floor": 4.54,
+        "minimum_acceptable_odds": 5.46,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      },
+      {
+        "id": "0634-away",
+        "kind": "single",
+        "origin": "assistant",
+        "label": "Como vs RB Leipzig away",
+        "odds": 3.75,
+        "break_even_probability": 0.266667,
+        "market_ev": -0.174637,
+        "robust_ev": -0.212137,
+        "betman_normalized_probability": 0.237001,
+        "betman_market_payout_rate": 0.888753,
+        "relative_ratio_mid": -0.071324,
+        "relative_ratio_low": -0.113518,
+        "ev_price_floor": 4.76,
+        "minimum_acceptable_odds": 5.81,
+        "reasons": [
+          "market_ev",
+          "robust_ev"
+        ]
+      }
+    ],
+    "accounted_instruments": 18
+  },
+  "action": null,
+  "research_snapshot": {
+    "purpose": "shadow_evaluation_not_purchase",
+    "flat_stake": 1000,
+    "input": {
+      "snapshot_kst": "2026-09-10T17:31:00+09:00",
+      "scope": "candidate-only",
+      "weekly_cycle": {
+        "id": "2026-09-07",
+        "cycle_start_kst": "2026-09-07T00:00:00+09:00",
+        "cycle_end_kst": "2026-09-14T00:00:00+09:00",
+        "ledger_path": "ledger.json",
+        "ledger_entries": [],
+        "ledger_snapshot_sha256": "49a3557266ccc752dbe643051c515fa3ae5e61146bc0a10c0d2c2798717e0d8e",
+        "verified_at_kst": "2026-09-10T17:31:00+09:00"
+      },
+      "board": {
+        "source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "round_id": "260107",
+        "captured_at_kst": "2026-09-10T17:31:00+09:00",
+        "window_start_kst": "2026-09-10T00:00:00+09:00",
+        "window_end_kst": "2026-09-10T23:59:59+09:00",
+        "snapshot_sha256": "5e18a431a113ce91f0c343d80f387ff7b088d610f00a03c73d6b1747429e5f8e",
+        "official_event_count": 6,
+        "official_market_row_count": 6,
+        "sections": [
+          {
+            "id": "ucl-single-scope",
+            "source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+            "captured_at_kst": "2026-09-10T17:31:00+09:00",
+            "official_market_row_count": 6,
+            "rows_sha256": "5e18a431a113ce91f0c343d80f387ff7b088d610f00a03c73d6b1747429e5f8e"
+          }
+        ],
+        "parlay_groups": [],
+        "rows": [
+          {
+            "event_id": "401915422",
+            "competition_id": "champions-league",
+            "participants": [
+              "PSV Eindhoven",
+              "Shakhtar Donetsk"
+            ],
+            "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+            "sport": "football",
+            "market_type": "1x2",
+            "line": null,
+            "settlement_rule": "90_minutes_plus_stoppage",
+            "row_id": "0582",
+            "section_id": "ucl-single-scope",
+            "league": "UCL",
+            "status": "open",
+            "close_time_kst": "2026-09-10T23:00:00+09:00",
+            "outcome_labels": [
+              "home",
+              "draw",
+              "away"
+            ],
+            "outcome_odds": [
+              1.39,
+              4.3,
+              5.8
+            ],
+            "odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+            "purchase_modes": [
+              "single"
+            ],
+            "parlay_group_ids": [],
+            "selection_dispositions": {
+              "home": "shortlist",
+              "draw": "shortlist",
+              "away": "shortlist"
+            },
+            "selection_disposition_reasons": {
+              "home": "two source price comparison",
+              "draw": "two source price comparison",
+              "away": "two source price comparison"
+            },
+            "disposition": "shortlist",
+            "disposition_reason": "single-market subset; parlay modes outside evaluated scope"
+          },
+          {
+            "event_id": "401915444",
+            "competition_id": "champions-league",
+            "participants": [
+              "Fenerbahce",
+              "AS Roma"
+            ],
+            "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+            "sport": "football",
+            "market_type": "1x2",
+            "line": null,
+            "settlement_rule": "90_minutes_plus_stoppage",
+            "row_id": "0591",
+            "section_id": "ucl-single-scope",
+            "league": "UCL",
+            "status": "open",
+            "close_time_kst": "2026-09-10T23:00:00+09:00",
+            "outcome_labels": [
+              "home",
+              "draw",
+              "away"
+            ],
+            "outcome_odds": [
+              3.15,
+              3.5,
+              1.92
+            ],
+            "odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+            "purchase_modes": [
+              "single"
+            ],
+            "parlay_group_ids": [],
+            "selection_dispositions": {
+              "home": "shortlist",
+              "draw": "shortlist",
+              "away": "shortlist"
+            },
+            "selection_disposition_reasons": {
+              "home": "two source price comparison",
+              "draw": "two source price comparison",
+              "away": "two source price comparison"
+            },
+            "disposition": "shortlist",
+            "disposition_reason": "single-market subset; parlay modes outside evaluated scope"
+          },
+          {
+            "event_id": "401915443",
+            "competition_id": "champions-league",
+            "participants": [
+              "Bayern Munich",
+              "Bodo/Glimt"
+            ],
+            "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+            "sport": "football",
+            "market_type": "1x2",
+            "line": null,
+            "settlement_rule": "90_minutes_plus_stoppage",
+            "row_id": "0608",
+            "section_id": "ucl-single-scope",
+            "league": "UCL",
+            "status": "open",
+            "close_time_kst": "2026-09-10T23:00:00+09:00",
+            "outcome_labels": [
+              "home",
+              "draw",
+              "away"
+            ],
+            "outcome_odds": [
+              1.08,
+              8.1,
+              13.5
+            ],
+            "odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+            "purchase_modes": [
+              "single"
+            ],
+            "parlay_group_ids": [],
+            "selection_dispositions": {
+              "home": "shortlist",
+              "draw": "shortlist",
+              "away": "shortlist"
+            },
+            "selection_disposition_reasons": {
+              "home": "two source price comparison",
+              "draw": "two source price comparison",
+              "away": "two source price comparison"
+            },
+            "disposition": "shortlist",
+            "disposition_reason": "single-market subset; parlay modes outside evaluated scope"
+          },
+          {
+            "event_id": "401915442",
+            "competition_id": "champions-league",
+            "participants": [
+              "Manchester United",
+              "Sabah FK"
+            ],
+            "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+            "sport": "football",
+            "market_type": "1x2",
+            "line": null,
+            "settlement_rule": "90_minutes_plus_stoppage",
+            "row_id": "0617",
+            "section_id": "ucl-single-scope",
+            "league": "UCL",
+            "status": "open",
+            "close_time_kst": "2026-09-10T23:00:00+09:00",
+            "outcome_labels": [
+              "home",
+              "draw",
+              "away"
+            ],
+            "outcome_odds": [
+              1.07,
+              7.7,
+              17
+            ],
+            "odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+            "purchase_modes": [
+              "single"
+            ],
+            "parlay_group_ids": [],
+            "selection_dispositions": {
+              "home": "shortlist",
+              "draw": "shortlist",
+              "away": "shortlist"
+            },
+            "selection_disposition_reasons": {
+              "home": "two source price comparison",
+              "draw": "two source price comparison",
+              "away": "two source price comparison"
+            },
+            "disposition": "shortlist",
+            "disposition_reason": "single-market subset; parlay modes outside evaluated scope"
+          },
+          {
+            "event_id": "401915440",
+            "competition_id": "champions-league",
+            "participants": [
+              "Slavia Prague",
+              "Lens"
+            ],
+            "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+            "sport": "football",
+            "market_type": "1x2",
+            "line": null,
+            "settlement_rule": "90_minutes_plus_stoppage",
+            "row_id": "0626",
+            "section_id": "ucl-single-scope",
+            "league": "UCL",
+            "status": "open",
+            "close_time_kst": "2026-09-10T23:00:00+09:00",
+            "outcome_labels": [
+              "home",
+              "draw",
+              "away"
+            ],
+            "outcome_odds": [
+              2.33,
+              3.3,
+              2.55
+            ],
+            "odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+            "purchase_modes": [
+              "single"
+            ],
+            "parlay_group_ids": [],
+            "selection_dispositions": {
+              "home": "shortlist",
+              "draw": "shortlist",
+              "away": "shortlist"
+            },
+            "selection_disposition_reasons": {
+              "home": "two source price comparison",
+              "draw": "two source price comparison",
+              "away": "two source price comparison"
+            },
+            "disposition": "shortlist",
+            "disposition_reason": "single-market subset; parlay modes outside evaluated scope"
+          },
+          {
+            "event_id": "401915441",
+            "competition_id": "champions-league",
+            "participants": [
+              "Como",
+              "RB Leipzig"
+            ],
+            "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+            "sport": "football",
+            "market_type": "1x2",
+            "line": null,
+            "settlement_rule": "90_minutes_plus_stoppage",
+            "row_id": "0634",
+            "section_id": "ucl-single-scope",
+            "league": "UCL",
+            "status": "open",
+            "close_time_kst": "2026-09-10T23:00:00+09:00",
+            "outcome_labels": [
+              "home",
+              "draw",
+              "away"
+            ],
+            "outcome_odds": [
+              1.7,
+              3.7,
+              3.75
+            ],
+            "odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+            "purchase_modes": [
+              "single"
+            ],
+            "parlay_group_ids": [],
+            "selection_dispositions": {
+              "home": "shortlist",
+              "draw": "shortlist",
+              "away": "shortlist"
+            },
+            "selection_disposition_reasons": {
+              "home": "two source price comparison",
+              "draw": "two source price comparison",
+              "away": "two source price comparison"
+            },
+            "disposition": "shortlist",
+            "disposition_reason": "single-market subset; parlay modes outside evaluated scope"
+          }
+        ]
+      },
+      "open_exposure": {
+        "tickets": []
+      },
+      "candidates": [
+        {
+          "event_id": "401915422",
+          "competition_id": "champions-league",
+          "participants": [
+            "PSV Eindhoven",
+            "Shakhtar Donetsk"
+          ],
+          "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0582-home",
+          "board_row_id": "0582",
+          "correlation_cluster_ids": [
+            "401915422"
+          ],
+          "origin": "assistant",
+          "label": "PSV Eindhoven vs Shakhtar Donetsk home",
+          "selection_key": "home",
+          "betman_odds": 1.39,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915422",
+              "competition_id": "champions-league",
+              "participants": [
+                "PSV Eindhoven",
+                "Shakhtar Donetsk"
+              ],
+              "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915422",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915422",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.5,
+                4.7,
+                5.75
+              ],
+              "selection_index": 0
+            },
+            {
+              "event_id": "401915422",
+              "competition_id": "champions-league",
+              "participants": [
+                "PSV Eindhoven",
+                "Shakhtar Donetsk"
+              ],
+              "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10PSVSHA",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10psvsha",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.5151515151515151,
+                5.128205128205128,
+                6.451612903225807
+              ],
+              "selection_index": 0
+            }
+          ]
+        },
+        {
+          "event_id": "401915422",
+          "competition_id": "champions-league",
+          "participants": [
+            "PSV Eindhoven",
+            "Shakhtar Donetsk"
+          ],
+          "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0582-draw",
+          "board_row_id": "0582",
+          "correlation_cluster_ids": [
+            "401915422"
+          ],
+          "origin": "assistant",
+          "label": "PSV Eindhoven vs Shakhtar Donetsk draw",
+          "selection_key": "draw",
+          "betman_odds": 4.3,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915422",
+              "competition_id": "champions-league",
+              "participants": [
+                "PSV Eindhoven",
+                "Shakhtar Donetsk"
+              ],
+              "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915422",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915422",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.5,
+                4.7,
+                5.75
+              ],
+              "selection_index": 1
+            },
+            {
+              "event_id": "401915422",
+              "competition_id": "champions-league",
+              "participants": [
+                "PSV Eindhoven",
+                "Shakhtar Donetsk"
+              ],
+              "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10PSVSHA",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10psvsha",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.5151515151515151,
+                5.128205128205128,
+                6.451612903225807
+              ],
+              "selection_index": 1
+            }
+          ]
+        },
+        {
+          "event_id": "401915422",
+          "competition_id": "champions-league",
+          "participants": [
+            "PSV Eindhoven",
+            "Shakhtar Donetsk"
+          ],
+          "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0582-away",
+          "board_row_id": "0582",
+          "correlation_cluster_ids": [
+            "401915422"
+          ],
+          "origin": "assistant",
+          "label": "PSV Eindhoven vs Shakhtar Donetsk away",
+          "selection_key": "away",
+          "betman_odds": 5.8,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915422",
+              "competition_id": "champions-league",
+              "participants": [
+                "PSV Eindhoven",
+                "Shakhtar Donetsk"
+              ],
+              "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915422",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915422",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.5,
+                4.7,
+                5.75
+              ],
+              "selection_index": 2
+            },
+            {
+              "event_id": "401915422",
+              "competition_id": "champions-league",
+              "participants": [
+                "PSV Eindhoven",
+                "Shakhtar Donetsk"
+              ],
+              "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10PSVSHA",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10psvsha",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.5151515151515151,
+                5.128205128205128,
+                6.451612903225807
+              ],
+              "selection_index": 2
+            }
+          ]
+        },
+        {
+          "event_id": "401915444",
+          "competition_id": "champions-league",
+          "participants": [
+            "Fenerbahce",
+            "AS Roma"
+          ],
+          "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0591-home",
+          "board_row_id": "0591",
+          "correlation_cluster_ids": [
+            "401915444"
+          ],
+          "origin": "assistant",
+          "label": "Fenerbahce vs AS Roma home",
+          "selection_key": "home",
+          "betman_odds": 3.15,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915444",
+              "competition_id": "champions-league",
+              "participants": [
+                "Fenerbahce",
+                "AS Roma"
+              ],
+              "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915444",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915444",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                3.55,
+                3.6,
+                2.05
+              ],
+              "selection_index": 0
+            },
+            {
+              "event_id": "401915444",
+              "competition_id": "champions-league",
+              "participants": [
+                "Fenerbahce",
+                "AS Roma"
+              ],
+              "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10FENROM",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10fenrom",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                3.6363636363636362,
+                3.773584905660377,
+                2.173913043478261
+              ],
+              "selection_index": 0
+            }
+          ]
+        },
+        {
+          "event_id": "401915444",
+          "competition_id": "champions-league",
+          "participants": [
+            "Fenerbahce",
+            "AS Roma"
+          ],
+          "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0591-draw",
+          "board_row_id": "0591",
+          "correlation_cluster_ids": [
+            "401915444"
+          ],
+          "origin": "assistant",
+          "label": "Fenerbahce vs AS Roma draw",
+          "selection_key": "draw",
+          "betman_odds": 3.5,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915444",
+              "competition_id": "champions-league",
+              "participants": [
+                "Fenerbahce",
+                "AS Roma"
+              ],
+              "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915444",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915444",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                3.55,
+                3.6,
+                2.05
+              ],
+              "selection_index": 1
+            },
+            {
+              "event_id": "401915444",
+              "competition_id": "champions-league",
+              "participants": [
+                "Fenerbahce",
+                "AS Roma"
+              ],
+              "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10FENROM",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10fenrom",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                3.6363636363636362,
+                3.773584905660377,
+                2.173913043478261
+              ],
+              "selection_index": 1
+            }
+          ]
+        },
+        {
+          "event_id": "401915444",
+          "competition_id": "champions-league",
+          "participants": [
+            "Fenerbahce",
+            "AS Roma"
+          ],
+          "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0591-away",
+          "board_row_id": "0591",
+          "correlation_cluster_ids": [
+            "401915444"
+          ],
+          "origin": "assistant",
+          "label": "Fenerbahce vs AS Roma away",
+          "selection_key": "away",
+          "betman_odds": 1.92,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915444",
+              "competition_id": "champions-league",
+              "participants": [
+                "Fenerbahce",
+                "AS Roma"
+              ],
+              "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915444",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915444",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                3.55,
+                3.6,
+                2.05
+              ],
+              "selection_index": 2
+            },
+            {
+              "event_id": "401915444",
+              "competition_id": "champions-league",
+              "participants": [
+                "Fenerbahce",
+                "AS Roma"
+              ],
+              "scheduled_start_kst": "2026-09-11T01:45:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10FENROM",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10fenrom",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                3.6363636363636362,
+                3.773584905660377,
+                2.173913043478261
+              ],
+              "selection_index": 2
+            }
+          ]
+        },
+        {
+          "event_id": "401915443",
+          "competition_id": "champions-league",
+          "participants": [
+            "Bayern Munich",
+            "Bodo/Glimt"
+          ],
+          "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0608-home",
+          "board_row_id": "0608",
+          "correlation_cluster_ids": [
+            "401915443"
+          ],
+          "origin": "assistant",
+          "label": "Bayern Munich vs Bodo/Glimt home",
+          "selection_key": "home",
+          "betman_odds": 1.08,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915443",
+              "competition_id": "champions-league",
+              "participants": [
+                "Bayern Munich",
+                "Bodo/Glimt"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915443",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915443",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.0833333333333333,
+                13,
+                23
+              ],
+              "selection_index": 0
+            },
+            {
+              "event_id": "401915443",
+              "competition_id": "champions-league",
+              "participants": [
+                "Bayern Munich",
+                "Bodo/Glimt"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10BMUBOG",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10bmubog",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.1049723756906078,
+                16.666666666666664,
+                28.57142857142857
+              ],
+              "selection_index": 0
+            }
+          ]
+        },
+        {
+          "event_id": "401915443",
+          "competition_id": "champions-league",
+          "participants": [
+            "Bayern Munich",
+            "Bodo/Glimt"
+          ],
+          "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0608-draw",
+          "board_row_id": "0608",
+          "correlation_cluster_ids": [
+            "401915443"
+          ],
+          "origin": "assistant",
+          "label": "Bayern Munich vs Bodo/Glimt draw",
+          "selection_key": "draw",
+          "betman_odds": 8.1,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915443",
+              "competition_id": "champions-league",
+              "participants": [
+                "Bayern Munich",
+                "Bodo/Glimt"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915443",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915443",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.0833333333333333,
+                13,
+                23
+              ],
+              "selection_index": 1
+            },
+            {
+              "event_id": "401915443",
+              "competition_id": "champions-league",
+              "participants": [
+                "Bayern Munich",
+                "Bodo/Glimt"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10BMUBOG",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10bmubog",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.1049723756906078,
+                16.666666666666664,
+                28.57142857142857
+              ],
+              "selection_index": 1
+            }
+          ]
+        },
+        {
+          "event_id": "401915443",
+          "competition_id": "champions-league",
+          "participants": [
+            "Bayern Munich",
+            "Bodo/Glimt"
+          ],
+          "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0608-away",
+          "board_row_id": "0608",
+          "correlation_cluster_ids": [
+            "401915443"
+          ],
+          "origin": "assistant",
+          "label": "Bayern Munich vs Bodo/Glimt away",
+          "selection_key": "away",
+          "betman_odds": 13.5,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915443",
+              "competition_id": "champions-league",
+              "participants": [
+                "Bayern Munich",
+                "Bodo/Glimt"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915443",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915443",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.0833333333333333,
+                13,
+                23
+              ],
+              "selection_index": 2
+            },
+            {
+              "event_id": "401915443",
+              "competition_id": "champions-league",
+              "participants": [
+                "Bayern Munich",
+                "Bodo/Glimt"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10BMUBOG",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10bmubog",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.1049723756906078,
+                16.666666666666664,
+                28.57142857142857
+              ],
+              "selection_index": 2
+            }
+          ]
+        },
+        {
+          "event_id": "401915442",
+          "competition_id": "champions-league",
+          "participants": [
+            "Manchester United",
+            "Sabah FK"
+          ],
+          "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0617-home",
+          "board_row_id": "0617",
+          "correlation_cluster_ids": [
+            "401915442"
+          ],
+          "origin": "assistant",
+          "label": "Manchester United vs Sabah FK home",
+          "selection_key": "home",
+          "betman_odds": 1.07,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915442",
+              "competition_id": "champions-league",
+              "participants": [
+                "Manchester United",
+                "Sabah FK"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915442",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915442",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.0909090909090908,
+                11,
+                26
+              ],
+              "selection_index": 0
+            },
+            {
+              "event_id": "401915442",
+              "competition_id": "champions-league",
+              "participants": [
+                "Manchester United",
+                "Sabah FK"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10MUNSBH",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10munsbh",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.1235955056179776,
+                13.333333333333332,
+                40
+              ],
+              "selection_index": 0
+            }
+          ]
+        },
+        {
+          "event_id": "401915442",
+          "competition_id": "champions-league",
+          "participants": [
+            "Manchester United",
+            "Sabah FK"
+          ],
+          "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0617-draw",
+          "board_row_id": "0617",
+          "correlation_cluster_ids": [
+            "401915442"
+          ],
+          "origin": "assistant",
+          "label": "Manchester United vs Sabah FK draw",
+          "selection_key": "draw",
+          "betman_odds": 7.7,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915442",
+              "competition_id": "champions-league",
+              "participants": [
+                "Manchester United",
+                "Sabah FK"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915442",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915442",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.0909090909090908,
+                11,
+                26
+              ],
+              "selection_index": 1
+            },
+            {
+              "event_id": "401915442",
+              "competition_id": "champions-league",
+              "participants": [
+                "Manchester United",
+                "Sabah FK"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10MUNSBH",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10munsbh",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.1235955056179776,
+                13.333333333333332,
+                40
+              ],
+              "selection_index": 1
+            }
+          ]
+        },
+        {
+          "event_id": "401915442",
+          "competition_id": "champions-league",
+          "participants": [
+            "Manchester United",
+            "Sabah FK"
+          ],
+          "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0617-away",
+          "board_row_id": "0617",
+          "correlation_cluster_ids": [
+            "401915442"
+          ],
+          "origin": "assistant",
+          "label": "Manchester United vs Sabah FK away",
+          "selection_key": "away",
+          "betman_odds": 17,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915442",
+              "competition_id": "champions-league",
+              "participants": [
+                "Manchester United",
+                "Sabah FK"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915442",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915442",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.0909090909090908,
+                11,
+                26
+              ],
+              "selection_index": 2
+            },
+            {
+              "event_id": "401915442",
+              "competition_id": "champions-league",
+              "participants": [
+                "Manchester United",
+                "Sabah FK"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10MUNSBH",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10munsbh",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.1235955056179776,
+                13.333333333333332,
+                40
+              ],
+              "selection_index": 2
+            }
+          ]
+        },
+        {
+          "event_id": "401915440",
+          "competition_id": "champions-league",
+          "participants": [
+            "Slavia Prague",
+            "Lens"
+          ],
+          "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0626-home",
+          "board_row_id": "0626",
+          "correlation_cluster_ids": [
+            "401915440"
+          ],
+          "origin": "assistant",
+          "label": "Slavia Prague vs Lens home",
+          "selection_key": "home",
+          "betman_odds": 2.33,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915440",
+              "competition_id": "champions-league",
+              "participants": [
+                "Slavia Prague",
+                "Lens"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915440",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915440",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                2.65,
+                3.45,
+                2.6
+              ],
+              "selection_index": 0
+            },
+            {
+              "event_id": "401915440",
+              "competition_id": "champions-league",
+              "participants": [
+                "Slavia Prague",
+                "Lens"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10SLARCL",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10slarcl",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                2.73972602739726,
+                3.571428571428571,
+                2.73972602739726
+              ],
+              "selection_index": 0
+            }
+          ]
+        },
+        {
+          "event_id": "401915440",
+          "competition_id": "champions-league",
+          "participants": [
+            "Slavia Prague",
+            "Lens"
+          ],
+          "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0626-draw",
+          "board_row_id": "0626",
+          "correlation_cluster_ids": [
+            "401915440"
+          ],
+          "origin": "assistant",
+          "label": "Slavia Prague vs Lens draw",
+          "selection_key": "draw",
+          "betman_odds": 3.3,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915440",
+              "competition_id": "champions-league",
+              "participants": [
+                "Slavia Prague",
+                "Lens"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915440",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915440",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                2.65,
+                3.45,
+                2.6
+              ],
+              "selection_index": 1
+            },
+            {
+              "event_id": "401915440",
+              "competition_id": "champions-league",
+              "participants": [
+                "Slavia Prague",
+                "Lens"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10SLARCL",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10slarcl",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                2.73972602739726,
+                3.571428571428571,
+                2.73972602739726
+              ],
+              "selection_index": 1
+            }
+          ]
+        },
+        {
+          "event_id": "401915440",
+          "competition_id": "champions-league",
+          "participants": [
+            "Slavia Prague",
+            "Lens"
+          ],
+          "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0626-away",
+          "board_row_id": "0626",
+          "correlation_cluster_ids": [
+            "401915440"
+          ],
+          "origin": "assistant",
+          "label": "Slavia Prague vs Lens away",
+          "selection_key": "away",
+          "betman_odds": 2.55,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915440",
+              "competition_id": "champions-league",
+              "participants": [
+                "Slavia Prague",
+                "Lens"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915440",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915440",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                2.65,
+                3.45,
+                2.6
+              ],
+              "selection_index": 2
+            },
+            {
+              "event_id": "401915440",
+              "competition_id": "champions-league",
+              "participants": [
+                "Slavia Prague",
+                "Lens"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10SLARCL",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10slarcl",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                2.73972602739726,
+                3.571428571428571,
+                2.73972602739726
+              ],
+              "selection_index": 2
+            }
+          ]
+        },
+        {
+          "event_id": "401915441",
+          "competition_id": "champions-league",
+          "participants": [
+            "Como",
+            "RB Leipzig"
+          ],
+          "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0634-home",
+          "board_row_id": "0634",
+          "correlation_cluster_ids": [
+            "401915441"
+          ],
+          "origin": "assistant",
+          "label": "Como vs RB Leipzig home",
+          "selection_key": "home",
+          "betman_odds": 1.7,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915441",
+              "competition_id": "champions-league",
+              "participants": [
+                "Como",
+                "RB Leipzig"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915441",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915441",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.7407407407407407,
+                4.1,
+                4.3
+              ],
+              "selection_index": 0
+            },
+            {
+              "event_id": "401915441",
+              "competition_id": "champions-league",
+              "participants": [
+                "Como",
+                "RB Leipzig"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10COMRBL",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10comrbl",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.801801801801802,
+                4.347826086956522,
+                4.545454545454546
+              ],
+              "selection_index": 0
+            }
+          ]
+        },
+        {
+          "event_id": "401915441",
+          "competition_id": "champions-league",
+          "participants": [
+            "Como",
+            "RB Leipzig"
+          ],
+          "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0634-draw",
+          "board_row_id": "0634",
+          "correlation_cluster_ids": [
+            "401915441"
+          ],
+          "origin": "assistant",
+          "label": "Como vs RB Leipzig draw",
+          "selection_key": "draw",
+          "betman_odds": 3.7,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915441",
+              "competition_id": "champions-league",
+              "participants": [
+                "Como",
+                "RB Leipzig"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915441",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915441",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.7407407407407407,
+                4.1,
+                4.3
+              ],
+              "selection_index": 1
+            },
+            {
+              "event_id": "401915441",
+              "competition_id": "champions-league",
+              "participants": [
+                "Como",
+                "RB Leipzig"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10COMRBL",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10comrbl",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.801801801801802,
+                4.347826086956522,
+                4.545454545454546
+              ],
+              "selection_index": 1
+            }
+          ]
+        },
+        {
+          "event_id": "401915441",
+          "competition_id": "champions-league",
+          "participants": [
+            "Como",
+            "RB Leipzig"
+          ],
+          "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+          "sport": "football",
+          "market_type": "1x2",
+          "line": null,
+          "settlement_rule": "90_minutes_plus_stoppage",
+          "id": "0634-away",
+          "board_row_id": "0634",
+          "correlation_cluster_ids": [
+            "401915441"
+          ],
+          "origin": "assistant",
+          "label": "Como vs RB Leipzig away",
+          "selection_key": "away",
+          "betman_odds": 3.75,
+          "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "close_time_kst": "2026-09-10T23:00:00+09:00",
+          "status": "open",
+          "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+          "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+          "market_quotes": [
+            {
+              "event_id": "401915441",
+              "competition_id": "champions-league",
+              "participants": [
+                "Como",
+                "RB Leipzig"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "draftkings",
+              "provider_group": "draftkings",
+              "provider_event_id": "401915441",
+              "source_url": "https://www.espn.com/soccer/match/_/gameId/401915441",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.7407407407407407,
+                4.1,
+                4.3
+              ],
+              "selection_index": 2
+            },
+            {
+              "event_id": "401915441",
+              "competition_id": "champions-league",
+              "participants": [
+                "Como",
+                "RB Leipzig"
+              ],
+              "scheduled_start_kst": "2026-09-11T04:00:00.000+09:00",
+              "sport": "football",
+              "market_type": "1x2",
+              "line": null,
+              "settlement_rule": "90_minutes_plus_stoppage",
+              "provider_id": "kalshi",
+              "provider_group": "kalshi",
+              "provider_event_id": "KXUCLGAME-26SEP10COMRBL",
+              "source_url": "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10comrbl",
+              "observed_at_kst": "2026-09-10T17:31:00+09:00",
+              "outcome_labels": [
+                "home",
+                "draw",
+                "away"
+              ],
+              "outcome_odds": [
+                1.801801801801802,
+                4.347826086956522,
+                4.545454545454546
+              ],
+              "selection_index": 2
+            }
+          ]
+        }
+      ],
+      "parlays": []
+    },
+    "candidates": [
+      {
+        "id": "0582-away",
+        "economic_key": "single|0582|away",
+        "board_row_id": "0582",
+        "kind": "single",
+        "event_ids": [
+          "401915422"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "PSV Eindhoven",
+          "Shakhtar Donetsk"
+        ],
+        "scheduled_start_kst": "2026-09-11T01:45:00+09:00",
+        "correlation_cluster_ids": [
+          "401915422"
+        ],
+        "origin": "assistant",
+        "label": "PSV Eindhoven vs Shakhtar Donetsk away",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "away",
+        "odds": 5.8,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915422",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10psvsha"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.172414,
+        "betman_normalized_probability": 0.153339,
+        "betman_market_payout_rate": 0.889366,
+        "market_probability": 0.159285,
+        "probability_low": 0.149285,
+        "probability_haircut": 0.01,
+        "probability_dispersion": 0.01164,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.076145,
+        "robust_ev": -0.134145,
+        "relative_ratio_mid": 0.038779,
+        "relative_ratio_low": -0.026436,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 9.21,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 6.7,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0582-draw",
+        "economic_key": "single|0582|draw",
+        "board_row_id": "0582",
+        "kind": "single",
+        "event_ids": [
+          "401915422"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "PSV Eindhoven",
+          "Shakhtar Donetsk"
+        ],
+        "scheduled_start_kst": "2026-09-11T01:45:00+09:00",
+        "correlation_cluster_ids": [
+          "401915422"
+        ],
+        "origin": "assistant",
+        "label": "PSV Eindhoven vs Shakhtar Donetsk draw",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "draw",
+        "odds": 4.3,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915422",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10psvsha"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.232558,
+        "betman_normalized_probability": 0.206829,
+        "betman_market_payout_rate": 0.889366,
+        "market_probability": 0.19753,
+        "probability_low": 0.18753,
+        "probability_haircut": 0.01,
+        "probability_dispersion": 0.008921,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.150621,
+        "robust_ev": -0.193621,
+        "relative_ratio_mid": -0.044961,
+        "relative_ratio_low": -0.093311,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 6.73,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 5.34,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0582-home",
+        "economic_key": "single|0582|home",
+        "board_row_id": "0582",
+        "kind": "single",
+        "event_ids": [
+          "401915422"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "PSV Eindhoven",
+          "Shakhtar Donetsk"
+        ],
+        "scheduled_start_kst": "2026-09-11T01:45:00+09:00",
+        "correlation_cluster_ids": [
+          "401915422"
+        ],
+        "origin": "assistant",
+        "label": "PSV Eindhoven vs Shakhtar Donetsk home",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "home",
+        "odds": 1.39,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915422",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10psvsha"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.719424,
+        "betman_normalized_probability": 0.639832,
+        "betman_market_payout_rate": 0.889366,
+        "market_probability": 0.643185,
+        "probability_low": 0.632904,
+        "probability_haircut": 0.010281,
+        "probability_dispersion": 0.020561,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.105973,
+        "robust_ev": -0.120263,
+        "relative_ratio_mid": 0.00524,
+        "relative_ratio_low": -0.010827,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 1.63,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 1.61,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0591-away",
+        "economic_key": "single|0591|away",
+        "board_row_id": "0591",
+        "kind": "single",
+        "event_ids": [
+          "401915444"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "Fenerbahce",
+          "AS Roma"
+        ],
+        "scheduled_start_kst": "2026-09-11T01:45:00+09:00",
+        "correlation_cluster_ids": [
+          "401915444"
+        ],
+        "origin": "assistant",
+        "label": "Fenerbahce vs AS Roma away",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "away",
+        "odds": 1.92,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915444",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10fenrom"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.520833,
+        "betman_normalized_probability": 0.463372,
+        "betman_market_payout_rate": 0.889673,
+        "market_probability": 0.462893,
+        "probability_low": 0.452893,
+        "probability_haircut": 0.01,
+        "probability_dispersion": 0.005786,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.111246,
+        "robust_ev": -0.130446,
+        "relative_ratio_mid": -0.001033,
+        "relative_ratio_low": -0.022614,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 2.35,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 2.23,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0591-draw",
+        "economic_key": "single|0591|draw",
+        "board_row_id": "0591",
+        "kind": "single",
+        "event_ids": [
+          "401915444"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "Fenerbahce",
+          "AS Roma"
+        ],
+        "scheduled_start_kst": "2026-09-11T01:45:00+09:00",
+        "correlation_cluster_ids": [
+          "401915444"
+        ],
+        "origin": "assistant",
+        "label": "Fenerbahce vs AS Roma draw",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "draw",
+        "odds": 3.5,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915444",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10fenrom"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.285714,
+        "betman_normalized_probability": 0.254192,
+        "betman_market_payout_rate": 0.889673,
+        "market_probability": 0.26512,
+        "probability_low": 0.25512,
+        "probability_haircut": 0.01,
+        "probability_dispersion": 0.000239,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.072081,
+        "robust_ev": -0.107081,
+        "relative_ratio_mid": 0.042988,
+        "relative_ratio_low": 0.003648,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 4.56,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 3.92,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0591-home",
+        "economic_key": "single|0591|home",
+        "board_row_id": "0591",
+        "kind": "single",
+        "event_ids": [
+          "401915444"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "Fenerbahce",
+          "AS Roma"
+        ],
+        "scheduled_start_kst": "2026-09-11T01:45:00+09:00",
+        "correlation_cluster_ids": [
+          "401915444"
+        ],
+        "origin": "assistant",
+        "label": "Fenerbahce vs AS Roma home",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "home",
+        "odds": 3.15,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915444",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10fenrom"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.31746,
+        "betman_normalized_probability": 0.282436,
+        "betman_market_payout_rate": 0.889673,
+        "market_probability": 0.271987,
+        "probability_low": 0.261987,
+        "probability_haircut": 0.01,
+        "probability_dispersion": 0.006025,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.143239,
+        "robust_ev": -0.174739,
+        "relative_ratio_mid": -0.036994,
+        "relative_ratio_low": -0.072401,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 4.42,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 3.82,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0608-away",
+        "economic_key": "single|0608|away",
+        "board_row_id": "0608",
+        "kind": "single",
+        "event_ids": [
+          "401915443"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "Bayern Munich",
+          "Bodo/Glimt"
+        ],
+        "scheduled_start_kst": "2026-09-11T04:00:00+09:00",
+        "correlation_cluster_ids": [
+          "401915443"
+        ],
+        "origin": "assistant",
+        "label": "Bayern Munich vs Bodo/Glimt away",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "away",
+        "odds": 13.5,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915443",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10bmubog"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.074074,
+        "betman_normalized_probability": 0.065934,
+        "betman_market_payout_rate": 0.89011,
+        "market_probability": 0.038333,
+        "probability_low": 0.028333,
+        "probability_haircut": 0.01,
+        "probability_dispersion": 0.006667,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.4825,
+        "robust_ev": -0.6175,
+        "relative_ratio_mid": -0.418611,
+        "relative_ratio_low": -0.570278,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": null,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 35.3,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0608-draw",
+        "economic_key": "single|0608|draw",
+        "board_row_id": "0608",
+        "kind": "single",
+        "event_ids": [
+          "401915443"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "Bayern Munich",
+          "Bodo/Glimt"
+        ],
+        "scheduled_start_kst": "2026-09-11T04:00:00+09:00",
+        "correlation_cluster_ids": [
+          "401915443"
+        ],
+        "origin": "assistant",
+        "label": "Bayern Munich vs Bodo/Glimt draw",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "draw",
+        "odds": 8.1,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915443",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10bmubog"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.123457,
+        "betman_normalized_probability": 0.10989,
+        "betman_market_payout_rate": 0.89011,
+        "market_probability": 0.066859,
+        "probability_low": 0.056859,
+        "probability_haircut": 0.01,
+        "probability_dispersion": 0.013718,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.458442,
+        "robust_ev": -0.539442,
+        "relative_ratio_mid": -0.391583,
+        "relative_ratio_low": -0.482583,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 84.69,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 17.59,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0608-home",
+        "economic_key": "single|0608|home",
+        "board_row_id": "0608",
+        "kind": "single",
+        "event_ids": [
+          "401915443"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "Bayern Munich",
+          "Bodo/Glimt"
+        ],
+        "scheduled_start_kst": "2026-09-11T04:00:00+09:00",
+        "correlation_cluster_ids": [
+          "401915443"
+        ],
+        "origin": "assistant",
+        "label": "Bayern Munich vs Bodo/Glimt home",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "home",
+        "odds": 1.08,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915443",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10bmubog"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.925926,
+        "betman_normalized_probability": 0.824176,
+        "betman_market_payout_rate": 0.89011,
+        "market_probability": 0.894808,
+        "probability_low": 0.884615,
+        "probability_haircut": 0.010192,
+        "probability_dispersion": 0.020385,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.033608,
+        "robust_ev": -0.044615,
+        "relative_ratio_mid": 0.0857,
+        "relative_ratio_low": 0.073333,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 1.16,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 1.16,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0617-away",
+        "economic_key": "single|0617|away",
+        "board_row_id": "0617",
+        "kind": "single",
+        "event_ids": [
+          "401915442"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "Manchester United",
+          "Sabah FK"
+        ],
+        "scheduled_start_kst": "2026-09-11T04:00:00+09:00",
+        "correlation_cluster_ids": [
+          "401915442"
+        ],
+        "origin": "assistant",
+        "label": "Manchester United vs Sabah FK away",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "away",
+        "odds": 17,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915442",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10munsbh"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.058824,
+        "betman_normalized_probability": 0.052368,
+        "betman_market_payout_rate": 0.890255,
+        "market_probability": 0.031011,
+        "probability_low": 0.021011,
+        "probability_haircut": 0.01,
+        "probability_dispersion": 0.011516,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.472819,
+        "robust_ev": -0.642819,
+        "relative_ratio_mid": -0.407831,
+        "relative_ratio_low": -0.598788,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": null,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 47.6,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0617-draw",
+        "economic_key": "single|0617|draw",
+        "board_row_id": "0617",
+        "kind": "single",
+        "event_ids": [
+          "401915442"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "Manchester United",
+          "Sabah FK"
+        ],
+        "scheduled_start_kst": "2026-09-11T04:00:00+09:00",
+        "correlation_cluster_ids": [
+          "401915442"
+        ],
+        "origin": "assistant",
+        "label": "Manchester United vs Sabah FK draw",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "draw",
+        "odds": 7.7,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915442",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10munsbh"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.12987,
+        "betman_normalized_probability": 0.115618,
+        "betman_market_payout_rate": 0.890255,
+        "market_probability": 0.081333,
+        "probability_low": 0.071333,
+        "probability_haircut": 0.01,
+        "probability_dispersion": 0.011151,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.373737,
+        "robust_ev": -0.450737,
+        "relative_ratio_mid": -0.296536,
+        "relative_ratio_low": -0.383028,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 37.08,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 14.02,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0617-home",
+        "economic_key": "single|0617|home",
+        "board_row_id": "0617",
+        "kind": "single",
+        "event_ids": [
+          "401915442"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "Manchester United",
+          "Sabah FK"
+        ],
+        "scheduled_start_kst": "2026-09-11T04:00:00+09:00",
+        "correlation_cluster_ids": [
+          "401915442"
+        ],
+        "origin": "assistant",
+        "label": "Manchester United vs Sabah FK home",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "home",
+        "odds": 1.07,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915442",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10munsbh"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.934579,
+        "betman_normalized_probability": 0.832014,
+        "betman_market_payout_rate": 0.890255,
+        "market_probability": 0.887657,
+        "probability_low": 0.876323,
+        "probability_haircut": 0.011333,
+        "probability_dispersion": 0.022667,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.050208,
+        "robust_ev": -0.062334,
+        "relative_ratio_mid": 0.066876,
+        "relative_ratio_low": 0.053255,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 1.17,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 1.17,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0626-away",
+        "economic_key": "single|0626|away",
+        "board_row_id": "0626",
+        "kind": "single",
+        "event_ids": [
+          "401915440"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "Slavia Prague",
+          "Lens"
+        ],
+        "scheduled_start_kst": "2026-09-11T04:00:00+09:00",
+        "correlation_cluster_ids": [
+          "401915440"
+        ],
+        "origin": "assistant",
+        "label": "Slavia Prague vs Lens away",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "away",
+        "odds": 2.55,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915440",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10slarcl"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.392157,
+        "betman_normalized_probability": 0.348779,
+        "betman_market_payout_rate": 0.889386,
+        "market_probability": 0.363525,
+        "probability_low": 0.353525,
+        "probability_haircut": 0.01,
+        "probability_dispersion": 0.004277,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.073012,
+        "robust_ev": -0.098512,
+        "relative_ratio_mid": 0.042279,
+        "relative_ratio_low": 0.013608,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 3.1,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 2.84,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0626-draw",
+        "economic_key": "single|0626|draw",
+        "board_row_id": "0626",
+        "kind": "single",
+        "event_ids": [
+          "401915440"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "Slavia Prague",
+          "Lens"
+        ],
+        "scheduled_start_kst": "2026-09-11T04:00:00+09:00",
+        "correlation_cluster_ids": [
+          "401915440"
+        ],
+        "origin": "assistant",
+        "label": "Slavia Prague vs Lens draw",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "draw",
+        "odds": 3.3,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915440",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10slarcl"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.30303,
+        "betman_normalized_probability": 0.269511,
+        "betman_market_payout_rate": 0.889386,
+        "market_probability": 0.2764,
+        "probability_low": 0.2664,
+        "probability_haircut": 0.01,
+        "probability_dispersion": 0.001655,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.08788,
+        "robust_ev": -0.12088,
+        "relative_ratio_mid": 0.025562,
+        "relative_ratio_low": -0.011542,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 4.33,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 3.76,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0626-home",
+        "economic_key": "single|0626|home",
+        "board_row_id": "0626",
+        "kind": "single",
+        "event_ids": [
+          "401915440"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "Slavia Prague",
+          "Lens"
+        ],
+        "scheduled_start_kst": "2026-09-11T04:00:00+09:00",
+        "correlation_cluster_ids": [
+          "401915440"
+        ],
+        "origin": "assistant",
+        "label": "Slavia Prague vs Lens home",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "home",
+        "odds": 2.33,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915440",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10slarcl"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.429185,
+        "betman_normalized_probability": 0.381711,
+        "betman_market_payout_rate": 0.889386,
+        "market_probability": 0.360075,
+        "probability_low": 0.350075,
+        "probability_haircut": 0.01,
+        "probability_dispersion": 0.002622,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.161025,
+        "robust_ev": -0.184325,
+        "relative_ratio_mid": -0.05668,
+        "relative_ratio_low": -0.082878,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 3.14,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 2.87,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0634-away",
+        "economic_key": "single|0634|away",
+        "board_row_id": "0634",
+        "kind": "single",
+        "event_ids": [
+          "401915441"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "Como",
+          "RB Leipzig"
+        ],
+        "scheduled_start_kst": "2026-09-11T04:00:00+09:00",
+        "correlation_cluster_ids": [
+          "401915441"
+        ],
+        "origin": "assistant",
+        "label": "Como vs RB Leipzig away",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "away",
+        "odds": 3.75,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915441",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10comrbl"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.266667,
+        "betman_normalized_probability": 0.237001,
+        "betman_market_payout_rate": 0.888753,
+        "market_probability": 0.220097,
+        "probability_low": 0.210097,
+        "probability_haircut": 0.01,
+        "probability_dispersion": 0.002383,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.174637,
+        "robust_ev": -0.212137,
+        "relative_ratio_mid": -0.071324,
+        "relative_ratio_low": -0.113518,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 5.81,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 4.76,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0634-draw",
+        "economic_key": "single|0634|draw",
+        "board_row_id": "0634",
+        "kind": "single",
+        "event_ids": [
+          "401915441"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "Como",
+          "RB Leipzig"
+        ],
+        "scheduled_start_kst": "2026-09-11T04:00:00+09:00",
+        "correlation_cluster_ids": [
+          "401915441"
+        ],
+        "origin": "assistant",
+        "label": "Como vs RB Leipzig draw",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "draw",
+        "odds": 3.7,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915441",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10comrbl"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.27027,
+        "betman_normalized_probability": 0.240203,
+        "betman_market_payout_rate": 0.888753,
+        "market_probability": 0.230469,
+        "probability_low": 0.220469,
+        "probability_haircut": 0.01,
+        "probability_dispersion": 0.003227,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.147264,
+        "robust_ev": -0.184264,
+        "relative_ratio_mid": -0.040525,
+        "relative_ratio_low": -0.082156,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 5.46,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 4.54,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      },
+      {
+        "id": "0634-home",
+        "economic_key": "single|0634|home",
+        "board_row_id": "0634",
+        "kind": "single",
+        "event_ids": [
+          "401915441"
+        ],
+        "competition_id": "champions-league",
+        "participants": [
+          "Como",
+          "RB Leipzig"
+        ],
+        "scheduled_start_kst": "2026-09-11T04:00:00+09:00",
+        "correlation_cluster_ids": [
+          "401915441"
+        ],
+        "origin": "assistant",
+        "label": "Como vs RB Leipzig home",
+        "sport": "football",
+        "market_type": "1x2",
+        "line": null,
+        "settlement_rule": "90_minutes_plus_stoppage",
+        "selection_key": "home",
+        "odds": 1.7,
+        "betman_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "betman_odds_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "close_time_kst": "2026-09-10T23:00:00+09:00",
+        "status": "open",
+        "status_source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260107",
+        "status_observed_at_kst": "2026-09-10T17:31:00+09:00",
+        "purchase_modes": [
+          "single"
+        ],
+        "parlay_group_ids": [],
+        "purchase_reasons": [],
+        "source_urls": [
+          "https://www.espn.com/soccer/match/_/gameId/401915441",
+          "https://kalshi.com/markets/kxuclgame/kxuclgame-26sep10comrbl"
+        ],
+        "quote_observed_at_kst": [
+          "2026-09-10T17:31:00+09:00",
+          "2026-09-10T17:31:00+09:00"
+        ],
+        "source_count": 2,
+        "break_even_probability": 0.588235,
+        "betman_normalized_probability": 0.522796,
+        "betman_market_payout_rate": 0.888753,
+        "market_probability": 0.549434,
+        "probability_low": 0.539434,
+        "probability_haircut": 0.01,
+        "probability_dispersion": 0.00561,
+        "price_observation_skew_minutes": 0,
+        "evidence_grade": "B",
+        "market_ev": -0.065962,
+        "robust_ev": -0.082962,
+        "relative_ratio_mid": 0.050953,
+        "relative_ratio_low": 0.031825,
+        "full_kelly": 0,
+        "minimum_acceptable_odds": 1.94,
+        "evidence_reasons": [],
+        "value_rejection_reasons": [
+          "market_ev",
+          "robust_ev"
+        ],
+        "ev_price_floor": 1.88,
+        "purchased": false,
+        "result": null,
+        "closing_probability": null
+      }
+    ]
+  },
+  "best_price_trigger": {
+    "id": "0608-home",
+    "label": "Bayern Munich vs Bodo/Glimt home",
+    "current_odds": 1.08,
+    "minimum_acceptable_odds": 1.16,
+    "close_time_kst": "2026-09-10T23:00:00+09:00"
+  },
+  "policy": {
+    "price": {
+      "base_probability_haircut": 0.01,
+      "max_probability_dispersion": 0.08,
+      "min_market_ev": 0.03,
+      "min_robust_ev": 0,
+      "max_live_age_minutes": 5,
+      "future_tolerance_minutes": 2,
+      "max_price_observation_skew_minutes": 5,
+      "max_comparison_skew_minutes": 5,
+      "odds_tick": 0.01
+    },
+    "risk": {
+      "kelly_multiplier": 0.5,
+      "max_cluster_fraction": 0.3,
+      "max_total_fraction": 0.6,
+      "tail_odds": 5,
+      "max_tail_fraction": 0.1,
+      "max_value_picks": 6
+    },
+    "action": {
+      "min_market_ev": -0.05,
+      "relative_min_market_ev": -0.18,
+      "relative_min_ratio_mid": 0.03,
+      "relative_min_ratio_low": 0,
+      "stake_units": 1,
+      "max_picks": 1
+    },
+    "parlay": {
+      "max_value_legs": 2,
+      "max_relative_action_legs": 2
+    }
+  },
+  "decision_id": "2026-09-10-1735-round107",
+  "screening_context": {
+    "displayed_fixture_count": 28,
+    "displayed_market_row_count": 167,
+    "preliminary_outcomes": [
+      {
+        "id": "401915422",
+        "row": "0582",
+        "label": "PSV Eindhoven vs Shakhtar Donetsk:home",
+        "type": "ml",
+        "line": null,
+        "odds": 1.39,
+        "mid": 0.6431846638996452,
+        "low": 0.6329039812646371,
+        "ev": -0.10597331717949321,
+        "min": 1.63
+      },
+      {
+        "id": "401915422",
+        "row": "0582",
+        "label": "PSV Eindhoven vs Shakhtar Donetsk:draw",
+        "type": "ml",
+        "line": null,
+        "odds": 4.3,
+        "mid": 0.19752996962459712,
+        "low": 0.18752996962459711,
+        "ev": -0.15062113061423243,
+        "min": 6.73
+      },
+      {
+        "id": "401915422",
+        "row": "0582",
+        "label": "PSV Eindhoven vs Shakhtar Donetsk:away",
+        "type": "ml",
+        "line": null,
+        "odds": 5.8,
+        "mid": 0.15928536647575764,
+        "low": 0.14928536647575763,
+        "ev": -0.07614487444060569,
+        "min": 9.21
+      },
+      {
+        "id": "401915422",
+        "row": "0586",
+        "label": "PSV Eindhoven vs Shakhtar Donetsk:under",
+        "type": "total",
+        "line": 3.5,
+        "odds": 1.62,
+        "mid": 0.5458847637415623,
+        "low": 0.5358847637415622,
+        "ev": -0.11566668273866909,
+        "min": 1.95
+      },
+      {
+        "id": "401915422",
+        "row": "0586",
+        "label": "PSV Eindhoven vs Shakhtar Donetsk:over",
+        "type": "total",
+        "line": 3.5,
+        "odds": 1.98,
+        "mid": 0.4541152362584378,
+        "low": 0.4441152362584378,
+        "ev": -0.10085183220829319,
+        "min": 2.4
+      },
+      {
+        "id": "401915444",
+        "row": "0591",
+        "label": "Fenerbahce vs AS Roma:home",
+        "type": "ml",
+        "line": null,
+        "odds": 3.15,
+        "mid": 0.27198747152619596,
+        "low": 0.26198747152619595,
+        "ev": -0.14323946469248272,
+        "min": 4.42
+      },
+      {
+        "id": "401915444",
+        "row": "0591",
+        "label": "Fenerbahce vs AS Roma:draw",
+        "type": "ml",
+        "line": null,
+        "odds": 3.5,
+        "mid": 0.26511958997722096,
+        "low": 0.25511958997722095,
+        "ev": -0.07208143507972664,
+        "min": 4.56
+      },
+      {
+        "id": "401915444",
+        "row": "0591",
+        "label": "Fenerbahce vs AS Roma:away",
+        "type": "ml",
+        "line": null,
+        "odds": 1.92,
+        "mid": 0.46289293849658314,
+        "low": 0.45289293849658313,
+        "ev": -0.11124555808656045,
+        "min": 2.35
+      },
+      {
+        "id": "401915444",
+        "row": "0594",
+        "label": "Fenerbahce vs AS Roma:under",
+        "type": "total",
+        "line": 2.5,
+        "odds": 2.13,
+        "mid": 0.4145063694267516,
+        "low": 0.4045063694267516,
+        "ev": -0.11710143312101906,
+        "min": 2.66
+      },
+      {
+        "id": "401915444",
+        "row": "0594",
+        "label": "Fenerbahce vs AS Roma:over",
+        "type": "total",
+        "line": 2.5,
+        "odds": 1.53,
+        "mid": 0.5854936305732484,
+        "low": 0.5754936305732484,
+        "ev": -0.10419474522292993,
+        "min": 1.81
+      },
+      {
+        "id": "401915443",
+        "row": "0608",
+        "label": "Bayern Munich vs Bodo/Glimt:home",
+        "type": "ml",
+        "line": null,
+        "odds": 1.08,
+        "mid": 0.8948076923076924,
+        "low": 0.8846153846153848,
+        "ev": -0.033607692307692116,
+        "min": 1.16
+      },
+      {
+        "id": "401915443",
+        "row": "0608",
+        "label": "Bayern Munich vs Bodo/Glimt:draw",
+        "type": "ml",
+        "line": null,
+        "odds": 8.1,
+        "mid": 0.06685897435897437,
+        "low": 0.056858974358974364,
+        "ev": -0.45844230769230765,
+        "min": 84.69
+      },
+      {
+        "id": "401915443",
+        "row": "0608",
+        "label": "Bayern Munich vs Bodo/Glimt:away",
+        "type": "ml",
+        "line": null,
+        "odds": 13.5,
+        "mid": 0.03833333333333333,
+        "low": 0.02833333333333333,
+        "ev": -0.48250000000000004,
+        "min": 35.3
+      },
+      {
+        "id": "401915443",
+        "row": "0612",
+        "label": "Bayern Munich vs Bodo/Glimt:under",
+        "type": "total",
+        "line": 4.5,
+        "odds": 1.96,
+        "mid": 0.4543421052631579,
+        "low": 0.43500000000000005,
+        "ev": -0.10948947368421058,
+        "min": 2.46
+      },
+      {
+        "id": "401915443",
+        "row": "0612",
+        "label": "Bayern Munich vs Bodo/Glimt:over",
+        "type": "total",
+        "line": 4.5,
+        "odds": 1.63,
+        "mid": 0.545657894736842,
+        "low": 0.5263157894736841,
+        "ev": -0.11057763157894762,
+        "min": 1.99
+      },
+      {
+        "id": "401915442",
+        "row": "0617",
+        "label": "Manchester United vs Sabah FK:home",
+        "type": "ml",
+        "line": null,
+        "odds": 1.07,
+        "mid": 0.8876565093835288,
+        "low": 0.8763231197771587,
+        "ev": -0.050207534959624156,
+        "min": 1.17
+      },
+      {
+        "id": "401915442",
+        "row": "0617",
+        "label": "Manchester United vs Sabah FK:draw",
+        "type": "ml",
+        "line": null,
+        "odds": 7.7,
+        "mid": 0.08133282687600236,
+        "low": 0.07133282687600237,
+        "ev": -0.3737372330547818,
+        "min": 37.08
+      },
+      {
+        "id": "401915442",
+        "row": "0617",
+        "label": "Manchester United vs Sabah FK:away",
+        "type": "ml",
+        "line": null,
+        "odds": 17,
+        "mid": 0.031010663740468757,
+        "low": 0.021010663740468755,
+        "ev": -0.4728187164120311,
+        "min": 47.6
+      },
+      {
+        "id": "401915440",
+        "row": "0626",
+        "label": "Slavia Prague vs Lens:home",
+        "type": "ml",
+        "line": null,
+        "odds": 2.33,
+        "mid": 0.3600751311007513,
+        "low": 0.3500751311007513,
+        "ev": -0.16102494453524951,
+        "min": 3.14
+      },
+      {
+        "id": "401915440",
+        "row": "0626",
+        "label": "Slavia Prague vs Lens:draw",
+        "type": "ml",
+        "line": null,
+        "odds": 3.3,
+        "mid": 0.27640008276400085,
+        "low": 0.26640008276400085,
+        "ev": -0.08787972687879719,
+        "min": 4.33
+      },
+      {
+        "id": "401915440",
+        "row": "0626",
+        "label": "Slavia Prague vs Lens:away",
+        "type": "ml",
+        "line": null,
+        "odds": 2.55,
+        "mid": 0.36352478613524786,
+        "low": 0.35352478613524785,
+        "ev": -0.07301179535511804,
+        "min": 3.1
+      },
+      {
+        "id": "401915440",
+        "row": "0629",
+        "label": "Slavia Prague vs Lens:under",
+        "type": "total",
+        "line": 2.5,
+        "odds": 2.07,
+        "mid": 0.4161801242236025,
+        "low": 0.4061801242236025,
+        "ev": -0.13850714285714283,
+        "min": 2.65
+      },
+      {
+        "id": "401915440",
+        "row": "0629",
+        "label": "Slavia Prague vs Lens:over",
+        "type": "total",
+        "line": 2.5,
+        "odds": 1.56,
+        "mid": 0.5838198757763975,
+        "low": 0.5738198757763975,
+        "ev": -0.08924099378881989,
+        "min": 1.81
+      },
+      {
+        "id": "401915441",
+        "row": "0634",
+        "label": "Como vs RB Leipzig:home",
+        "type": "ml",
+        "line": null,
+        "odds": 1.7,
+        "mid": 0.5494339032779054,
+        "low": 0.5394339032779054,
+        "ev": -0.06596236442756076,
+        "min": 1.94
+      },
+      {
+        "id": "401915441",
+        "row": "0634",
+        "label": "Como vs RB Leipzig:draw",
+        "type": "ml",
+        "line": null,
+        "odds": 3.7,
+        "mid": 0.2304692474513778,
+        "low": 0.2204692474513778,
+        "ev": -0.14726378442990207,
+        "min": 5.46
+      },
+      {
+        "id": "401915441",
+        "row": "0634",
+        "label": "Como vs RB Leipzig:away",
+        "type": "ml",
+        "line": null,
+        "odds": 3.75,
+        "mid": 0.22009684927071674,
+        "low": 0.21009684927071673,
+        "ev": -0.17463681523481223,
+        "min": 5.81
+      },
+      {
+        "id": "401915441",
+        "row": "0637",
+        "label": "Como vs RB Leipzig:under",
+        "type": "total",
+        "line": 3.5,
+        "odds": 1.58,
+        "mid": 0.5624730579254602,
+        "low": 0.5524730579254602,
+        "ev": -0.1112925684777728,
+        "min": 1.89
+      },
+      {
+        "id": "401915441",
+        "row": "0637",
+        "label": "Como vs RB Leipzig:over",
+        "type": "total",
+        "line": 3.5,
+        "odds": 2.04,
+        "mid": 0.43752694207453974,
+        "low": 0.42752694207453973,
+        "ev": -0.10744503816793893,
+        "min": 2.5
+      },
+      {
+        "id": "401816885",
+        "row": "0577",
+        "label": "Atlanta Braves vs Tampa Bay Rays:home",
+        "type": "ml",
+        "line": null,
+        "odds": 1.65,
+        "mid": 0.5283521002590227,
+        "low": 0.5183521002590227,
+        "ev": -0.12821903457261263,
+        "min": 2.02
+      },
+      {
+        "id": "401816885",
+        "row": "0577",
+        "label": "Atlanta Braves vs Tampa Bay Rays:away",
+        "type": "ml",
+        "line": null,
+        "odds": 1.89,
+        "mid": 0.4716478997409773,
+        "low": 0.4616478997409773,
+        "ev": -0.10858546948955294,
+        "min": 2.3
+      },
+      {
+        "id": "401816885",
+        "row": "0580",
+        "label": "Atlanta Braves vs Tampa Bay Rays:under",
+        "type": "total",
+        "line": 8.5,
+        "odds": 1.67,
+        "mid": 0.5175918615244458,
+        "low": 0.5075918615244458,
+        "ev": -0.1356215912541755,
+        "min": 2.07
+      },
+      {
+        "id": "401816885",
+        "row": "0580",
+        "label": "Atlanta Braves vs Tampa Bay Rays:over",
+        "type": "total",
+        "line": 8.5,
+        "odds": 1.86,
+        "mid": 0.4824081384755542,
+        "low": 0.4724081384755542,
+        "ev": -0.10272086243546918,
+        "min": 2.24
+      },
+      {
+        "id": "401816884",
+        "row": "0599",
+        "label": "Philadelphia Phillies vs Houston Astros:home",
+        "type": "ml",
+        "line": null,
+        "odds": 1.44,
+        "mid": 0.62640768286288,
+        "low": 0.61640768286288,
+        "ev": -0.09797293667745288,
+        "min": 1.68
+      },
+      {
+        "id": "401816884",
+        "row": "0599",
+        "label": "Philadelphia Phillies vs Houston Astros:away",
+        "type": "ml",
+        "line": null,
+        "odds": 2.26,
+        "mid": 0.37359231713711993,
+        "low": 0.3635923171371199,
+        "ev": -0.15568136327010906,
+        "min": 3.01
+      },
+      {
+        "id": "401816884",
+        "row": "0602",
+        "label": "Philadelphia Phillies vs Houston Astros:under",
+        "type": "total",
+        "line": 8.5,
+        "odds": 1.76,
+        "mid": 0.4997747885235894,
+        "low": 0.4897747885235894,
+        "ev": -0.12039637219848265,
+        "min": 2.15
+      },
+      {
+        "id": "401816884",
+        "row": "0602",
+        "label": "Philadelphia Phillies vs Houston Astros:over",
+        "type": "total",
+        "line": 8.5,
+        "odds": 1.76,
+        "mid": 0.5002252114764105,
+        "low": 0.4902252114764105,
+        "ev": -0.11960362780151745,
+        "min": 2.15
+      },
+      {
+        "id": "401816887",
+        "row": "0642",
+        "label": "Seattle Mariners vs Texas Rangers:home",
+        "type": "ml",
+        "line": null,
+        "odds": 1.63,
+        "mid": 0.5436919808237088,
+        "low": 0.5336919808237088,
+        "ev": -0.11378207125735462,
+        "min": 1.96
+      },
+      {
+        "id": "401816887",
+        "row": "0642",
+        "label": "Seattle Mariners vs Texas Rangers:away",
+        "type": "ml",
+        "line": null,
+        "odds": 1.91,
+        "mid": 0.45630801917629116,
+        "low": 0.44630801917629115,
+        "ev": -0.12845168337328394,
+        "min": 2.39
+      },
+      {
+        "id": "401816887",
+        "row": "0645",
+        "label": "Seattle Mariners vs Texas Rangers:under",
+        "type": "total",
+        "line": 6.5,
+        "odds": 1.89,
+        "mid": 0.4666304347826087,
+        "low": 0.45499999999999996,
+        "ev": -0.11806847826086964,
+        "min": 2.34
+      },
+      {
+        "id": "401816887",
+        "row": "0645",
+        "label": "Seattle Mariners vs Texas Rangers:over",
+        "type": "total",
+        "line": 6.5,
+        "odds": 1.65,
+        "mid": 0.5333695652173913,
+        "low": 0.5217391304347826,
+        "ev": -0.11994021739130434,
+        "min": 2.01
+      },
+      {
+        "id": "401816883",
+        "row": "0647",
+        "label": "New York Yankees vs Colorado Rockies:home",
+        "type": "ml",
+        "line": null,
+        "odds": 1.23,
+        "mid": 0.7444520314100376,
+        "low": 0.7344520314100376,
+        "ev": -0.08432400136565377,
+        "min": 1.39
+      },
+      {
+        "id": "401816883",
+        "row": "0647",
+        "label": "New York Yankees vs Colorado Rockies:away",
+        "type": "ml",
+        "line": null,
+        "odds": 3.09,
+        "mid": 0.2555479685899624,
+        "low": 0.24554796858996242,
+        "ev": -0.21035677705701616,
+        "min": 4.78
+      },
+      {
+        "id": "401816886",
+        "row": "0652",
+        "label": "Chicago White Sox vs Pittsburgh Pirates:home",
+        "type": "ml",
+        "line": null,
+        "odds": 1.73,
+        "mid": 0.5012437810945274,
+        "low": 0.4912437810945274,
+        "ev": -0.13284825870646766,
+        "min": 2.15
+      },
+      {
+        "id": "401816886",
+        "row": "0652",
+        "label": "Chicago White Sox vs Pittsburgh Pirates:away",
+        "type": "ml",
+        "line": null,
+        "odds": 1.79,
+        "mid": 0.49875621890547267,
+        "low": 0.48875621890547266,
+        "ev": -0.10722636815920394,
+        "min": 2.16
+      },
+      {
+        "id": "401816886",
+        "row": "0655",
+        "label": "Chicago White Sox vs Pittsburgh Pirates:under",
+        "type": "total",
+        "line": 7.5,
+        "odds": 1.8,
+        "mid": 0.4788179371418649,
+        "low": 0.46881793714186487,
+        "ev": -0.13812771314464323,
+        "min": 2.26
+      },
+      {
+        "id": "401816886",
+        "row": "0655",
+        "label": "Chicago White Sox vs Pittsburgh Pirates:over",
+        "type": "total",
+        "line": 7.5,
+        "odds": 1.72,
+        "mid": 0.5211820628581351,
+        "low": 0.5111820628581351,
+        "ev": -0.10356685188400772,
+        "min": 2.05
+      }
+    ],
+    "scope_note": "Formal allocation limited to 6 UCL 1x2 markets (18 selections). Preliminary comparison covers 46 outcomes across 20 UCL/MLB markets. Domestic baseball, basketball, volleyball, other football and handicap/first-half/parlay markets not completely evaluated. Prediction market quotes are indicative bid/ask midpoints, not verified executable depth.",
+    "round": "260107"
+  }
+}
