@@ -12,7 +12,11 @@
   API documentation, reuse the matching tab, and use public pages without requiring login.
   Login is only needed when the actual requested page blocks access.
 - A purchase confirmation is evidence of purchase: do not recheck the user's account.
-  Use supplied receipt odds first, then explicitly label any prior quoted odds assumption.
+  Use supplied receipt odds first. Per the user's 2026-09-25 confirmation, if the user
+  bought immediately after a Betman price lookup and reports no different odds, treat
+  that lookup price as the user-confirmed purchase odds; cite the lookup and do not
+  call it receipt-verified. An explicitly reported changed price overrides the lookup.
+  If the timing or matching lookup is unclear, keep the purchase odds unknown.
 - The approved prospective-review workflow permits recommendation research snapshots
   under `decisions/` only. Recommendations do not authorize purchases, accounting
   writes, commits, pushes or scheduled monitoring. An explicit
