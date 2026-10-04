@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "session_id": "2026-10-04-results-1137",
+  "unit_id": "expanded-results",
+  "source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/winrstDetl.do?ntceSn=260117&gmId=G101&gmTs=260117",
+  "surface": "iab",
+  "observed_at_kst": "2026-10-04T11:39:06.277+09:00",
+  "price_freshness": "unverified",
+  "data": {
+    "detail_state": "expanded visible UI",
+    "rows": [
+      {"id": "6064", "group_text": "홈\n원정\nNC\nVS\nSSG\n26.10.03 (토) 14:00", "text": "6064\n야구 승패\n승\n상세내용 닫기\n승\n적중결과 발표일\n26.10.03(토)\n경기결과\n13:1\n최종배당률\n1.59"},
+      {"id": "6223", "group_text": "홈\n원정\n크로아티\nVS\n잉글랜드\n26.10.04 (일) 01:00", "text": "6223\n축구 승무패\n패\n상세내용 닫기\n패\n적중결과 발표일\n26.10.04(일)\n경기결과\n0:7\n최종배당률\n1.62"},
+      {"id": "6225", "group_text": "홈\n원정\n크로아티\nVS\n잉글랜드\n26.10.04 (일) 01:00", "text": "6225\n축구 언더오버\nU/O 2.5\n오버\n상세내용 닫기\n오버\n적중결과 발표일\n26.10.04(일)\n경기결과\n7\n최종배당률\n1.53"},
+      {"id": "6206", "group_text": "홈\n원정\n탬파레이\nVS\n뉴욕양키\n26.10.04 (일) 07:30", "text": "6206\n야구 승패\n승\n상세내용 닫기\n승\n적중결과 발표일\n26.10.04(일)\n경기결과\n1:0\n최종배당률\n1.65"}
+    ]
+  }
+}

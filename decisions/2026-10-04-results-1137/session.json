@@ -1,0 +1,12 @@
+{
+  "session_id": "2026-10-04-results-1137",
+  "started_at_kst": "2026-10-04T11:37:02+09:00",
+  "budget_seconds": 480,
+  "phase": "discovery",
+  "units": [{"id": "purchased-results", "source_key": "betman"}, {"id": "expanded-results", "source_key": "betman"}],
+  "attempts": [
+    {"unit_id": "purchased-results", "phase": "discovery", "started_at_kst": "2026-10-04T11:38:10+09:00", "ended_at_kst": "2026-10-04T11:38:25+09:00", "status": "error", "reset": false, "reason": "Output formatting call failed; retry using JSON.stringify, not a transport failure."},
+    {"unit_id": "purchased-results", "phase": "discovery", "started_at_kst": "2026-10-04T11:38:25+09:00", "ended_at_kst": "2026-10-04T11:38:33+09:00", "status": "success", "reset": false, "checkpoint_path": "result-headers.json", "checkpoint_sha256": "6a715caece3f49fdad2236bc8c19f54f1da5f2417ee0c15daf71ae1b86c1d18f"},
+    {"unit_id": "expanded-results", "phase": "discovery", "started_at_kst": "2026-10-04T11:39:00+09:00", "ended_at_kst": "2026-10-04T11:39:07+09:00", "status": "success", "reset": false, "checkpoint_path": "expanded-results.json", "checkpoint_sha256": "b52045f06fad0700aa4a746772dd75f5b3b27595cd65836b50abed693ffe55e6"}
+  ]
+}
