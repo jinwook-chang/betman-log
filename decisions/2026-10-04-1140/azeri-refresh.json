@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "session_id": "2026-10-04-1140",
+  "unit_id": "azeri-refresh",
+  "source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260117",
+  "surface": "iab",
+  "observed_at_kst": "2026-10-04T11:48:14.486+09:00",
+  "price_freshness": "live_ui",
+  "data": {
+    "source_price_update_at": null,
+    "row": 6364,
+    "native_event_id": "SC1791118800000아제르바리투아니",
+    "home": "아제르바",
+    "away": "리투아니",
+    "market": "축구 승무패",
+    "mode": "조합 · 한경기",
+    "start_kst": "2026-10-04T22:00:00+09:00",
+    "deadline_kst": "2026-10-04T22:00:00+09:00",
+    "odds": [
+      2.11,
+      2.75,
+      3.2
+    ],
+    "all_disabled": false
+  }
+}

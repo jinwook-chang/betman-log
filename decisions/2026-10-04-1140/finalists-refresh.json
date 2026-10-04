@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "session_id": "2026-10-04-1140",
+  "unit_id": "finalists-refresh",
+  "source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260117",
+  "surface": "iab",
+  "observed_at_kst": "2026-10-04T11:47:34.273+09:00",
+  "price_freshness": "live_ui",
+  "data": {
+    "source_price_update_at": null,
+    "rows": [
+      {
+        "row": 6385,
+        "native_event_id": "SC1791129600000몰타안도라",
+        "market": "축구 승무패",
+        "mode": "조합 · 한경기",
+        "start_kst": "2026-10-05T01:00:00+09:00",
+        "deadline_kst": "2026-10-04T23:00:00+09:00",
+        "odds": [
+          1.59,
+          3,
+          5.3
+        ],
+        "all_disabled": false
+      },
+      {
+        "row": 6393,
+        "native_event_id": "SC1791139500000포르투갈노르웨이",
+        "market": "축구 승무패",
+        "mode": "조합 · 한경기",
+        "start_kst": "2026-10-05T03:45:00+09:00",
+        "deadline_kst": "2026-10-04T23:00:00+09:00",
+        "odds": [
+          1.58,
+          3.8,
+          3.95
+        ],
+        "all_disabled": false
+      },
+      {
+        "row": 6397,
+        "native_event_id": "SC1791139500000네덜란드세르비아",
+        "market": "축구 승무패",
+        "mode": "조합 · 한경기",
+        "start_kst": "2026-10-05T03:45:00+09:00",
+        "deadline_kst": "2026-10-04T23:00:00+09:00",
+        "odds": [
+          1.1,
+          6.1,
+          13
+        ],
+        "all_disabled": false,
+        "notice_present": true,
+        "notice_unresolved": true
+      }
+    ]
+  }
+}
