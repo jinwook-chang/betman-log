@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "session_id": "2026-10-05-results-0732",
+  "unit_id": "expanded-results",
+  "source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/winrstDetl.do?ntceSn=260117&gmId=G101&gmTs=260117",
+  "surface": "iab",
+  "observed_at_kst": "2026-10-05T07:33:14.918+09:00",
+  "price_freshness": "unverified",
+  "data": {
+    "observed_at": "2026-10-04T22:33:14.918Z",
+    "source_url": "https://m.betman.co.kr/main/mainPage/gamebuy/winrstDetl.do?ntceSn=260117&gmId=G101&gmTs=260117",
+    "rows": [
+      {
+        "details_visible": true,
+        "fixture_context": "홈\n원정\n아제르바\nVS\n리투아니\n26.10.04 (일) 22:00\n6364\n축구 승무패\n승\n상세내용 닫기\n승\n적중결과 발표일\n26.10.05(월)\n경기결과\n1:0\n최종배당률\n2.49\n6365\n축구 핸디캡\nH -1.0\n무\n상세내용 열기\n6366\n축구 언더오버\nU/O 2.5\n언더\n상세내용 열기\n6367\n축구 SUM\n홀\n상세내용 열기",
+        "row": "6364",
+        "text": "6364\n축구 승무패\n승\n상세내용 닫기\n승\n적중결과 발표일\n26.10.05(월)\n경기결과\n1:0\n최종배당률\n2.49"
+      },
+      {
+        "details_visible": true,
+        "fixture_context": "홈\n원정\n몰타\nVS\n안도라\n26.10.05 (월) 01:00\n6385\n축구 승무패\n승\n상세내용 닫기\n승\n적중결과 발표일\n26.10.05(월)\n경기결과\n1:0\n최종배당률\n1.52\n6386\n축구 핸디캡\nH -1.0\n무\n상세내용 열기\n6387\n축구 언더오버\nU/O 2.5\n언더\n상세내용 열기\n6388\n축구 SUM\n홀\n상세내용 열기",
+        "row": "6385",
+        "text": "6385\n축구 승무패\n승\n상세내용 닫기\n승\n적중결과 발표일\n26.10.05(월)\n경기결과\n1:0\n최종배당률\n1.52"
+      },
+      {
+        "details_visible": true,
+        "fixture_context": "홈\n원정\n포르투갈\nVS\n노르웨이\n26.10.05 (월) 03:45\n6393\n축구 승무패\n승\n상세내용 닫기\n승\n적중결과 발표일\n26.10.05(월)\n경기결과\n2:1\n최종배당률\n1.53\n6394\n축구 핸디캡\nH -1.0\n무\n상세내용 열기\n6395\n축구 언더오버\nU/O 3.5\n언더\n상세내용 열기\n6396\n축구 SUM\n홀\n상세내용 열기",
+        "row": "6393",
+        "text": "6393\n축구 승무패\n승\n상세내용 닫기\n승\n적중결과 발표일\n26.10.05(월)\n경기결과\n2:1\n최종배당률\n1.53"
+      }
+    ]
+  }
+}
