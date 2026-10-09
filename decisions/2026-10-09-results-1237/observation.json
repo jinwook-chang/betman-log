@@ -1,0 +1,25 @@
+{
+  "observed_at": "2026-10-09T12:37:56+09:00",
+  "purchase_record": "records/2026-10-08.md",
+  "source_command": "sports-skills mlb get_scoreboard --date=2026-10-08",
+  "source_provider": "ESPN via uv-managed sports-skills",
+  "event": {
+    "id": "401907993",
+    "name": "Cleveland Guardians at Chicago White Sox",
+    "start_time": "2026-10-09T00:00Z",
+    "status": "live",
+    "status_detail": "Bot 9th",
+    "home": {"team": "Chicago White Sox", "score": 5},
+    "away": {"team": "Cleveland Guardians", "score": 9}
+  },
+  "ticket_id": "2026-10-08-6970-over-01",
+  "selection": "full-game over 7.5",
+  "observed_total": 14,
+  "threshold_exceeded": true,
+  "settlement": "pending final result; no payout booked",
+  "other_tickets": [
+    {"ticket_id": "2026-10-08-6975-home-01", "start_time_kst": "2026-10-09T14:00:00+09:00", "status_basis": "purchase board start time is after observation; no live score queried"},
+    {"ticket_id": "2026-10-08-7028-home-01", "start_time_kst": "2026-10-09T16:30:00+09:00", "status_basis": "purchase board start time is after observation; no live score queried"}
+  ],
+  "accounting_changed": false
+}
