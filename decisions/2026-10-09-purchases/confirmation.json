@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "kind": "purchase_confirmation",
+  "recorded_at_kst": "2026-10-09T21:07:00.000+09:00",
+  "purchase_date_kst": "2026-10-09",
+  "purchase_time_kst": null,
+  "origin": "user",
+  "sleeve": "manual",
+  "confirmation": "각 2000원씩 구매 함 기록 후 푸시",
+  "round": "G101/260120",
+  "price_evidence": "../2026-10-09-2051/finalists-prices.json",
+  "price_evidence_sha256": "6eb9311ca5ac6a0d79cc5ced314ab2a52c09180fed05af7c050a2ea85a8f8213",
+  "metadata_evidence": "../2026-10-09-2051/finalists-metadata.json",
+  "metadata_evidence_sha256": "21a5369f3376793e779ecdac748a83bd2483dfeb9266d0f2e449b732a7828bfb",
+  "price_observed_at_kst": "2026-10-09T20:57:42.178+09:00",
+  "odds_provenance": "user-confirmed matching preceding lookup per 2026-09-25 rule; not receipt verified",
+  "tickets": [
+    {
+      "ticket_id": "2026-10-09-7113-away-01",
+      "row": "7113",
+      "event_id": null,
+      "competition": "프랑스 리그1",
+      "sport": "football",
+      "home": "RC랑스",
+      "away": "리옹",
+      "market": "full-game three-way European handicap",
+      "line": -1,
+      "selection": "away",
+      "stake": 2000,
+      "odds": 1.52,
+      "complete_odds": [
+        4.2,
+        3.95,
+        1.52
+      ],
+      "start_kst": "2026-10-10T03:45:00+09:00",
+      "deadline_kst": "2026-10-09T23:00:00+09:00"
+    },
+    {
+      "ticket_id": "2026-10-09-7101-draw-01",
+      "row": "7101",
+      "event_id": null,
+      "competition": "네덜란드 에레디비시",
+      "sport": "football",
+      "home": "PSV",
+      "away": "헤이렌베인",
+      "market": "full-game three-way European handicap",
+      "line": -1,
+      "selection": "draw",
+      "stake": 2000,
+      "odds": 4.85,
+      "complete_odds": [
+        1.6,
+        4.85,
+        3.15
+      ],
+      "start_kst": "2026-10-10T03:00:00+09:00",
+      "deadline_kst": "2026-10-09T23:00:00+09:00"
+    },
+    {
+      "ticket_id": "2026-10-09-7246-away-01",
+      "row": "7246",
+      "event_id": null,
+      "competition": "일본 J1리그",
+      "sport": "football",
+      "home": "교토상가",
+      "away": "마치다Z",
+      "market": "full-game 1x2",
+      "line": null,
+      "selection": "away",
+      "stake": 2000,
+      "odds": 1.86,
+      "complete_odds": [
+        3.3,
+        3.25,
+        1.86
+      ],
+      "start_kst": "2026-10-10T19:00:00+09:00",
+      "deadline_kst": "2026-10-10T19:00:00+09:00"
+    }
+  ],
+  "identity_gap": "Separate native event key and competition code absent in retained finalist snapshots; no account query or fabricated identity.",
+  "settlement_rule_details": null,
+  "total_stake": 6000,
+  "cash_before": 23640,
+  "cash_after": 17640,
+  "pending_stake": 6000,
+  "status": "pending",
+  "new_deposit": false
+}
