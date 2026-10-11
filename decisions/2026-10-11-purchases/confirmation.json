@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "kind": "purchase_confirmation",
+  "recorded_at_kst": "2026-10-11T20:20:41+09:00",
+  "purchase_date_kst": "2026-10-11",
+  "purchase_time_kst": null,
+  "origin": "user",
+  "sleeve": "manual",
+  "confirmation": "레체 패 1.77 4000 / 마르세유 무 3.70 4000 — 기록 후 퓟",
+  "round": "G101/260120",
+  "odds_provenance": "Explicit user-confirmed purchase odds; not receipt verified",
+  "source_lookup": {
+    "surface": "iab",
+    "url": "https://m.betman.co.kr/main/mainPage/gamebuy/gameSlip.do?gmId=G101&gmTs=260120",
+    "observed_at_kst": "2026-10-11T20:15:11.108+09:00",
+    "checkpoint": "decisions/2026-10-11-2007/final-board.json",
+    "sha256": "a1d0eaca09526e4572acb6b64dd64a55673f12472f9b7ff37746372e84b8a53a",
+    "matched_raw_markets": [
+      {
+        "id": 7675,
+        "native": "SC1791723600000US레체볼로냐",
+        "home": "US레체",
+        "away": "볼로냐",
+        "market": "축구 승무패",
+        "mode": "조합 · 한경기",
+        "prices": [
+          3.8,
+          3.1,
+          1.77
+        ],
+        "disabled": [
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "id": 7757,
+        "native": "SC1791744300000트루아AC마르세유",
+        "home": "트루아AC",
+        "away": "마르세유",
+        "market": "축구 승무패",
+        "mode": "조합 · 한경기",
+        "prices": [
+          3.1,
+          3.7,
+          1.8
+        ],
+        "disabled": [
+          false,
+          false,
+          false
+        ]
+      }
+    ]
+  },
+  "tickets": [
+    {
+      "ticket_id": "2026-10-11-7675-away-01",
+      "row": "7675",
+      "event_id": "SC1791723600000US레체볼로냐",
+      "competition": "이탈리아 세리에A",
+      "sport": "football",
+      "home": "US레체",
+      "away": "볼로냐",
+      "market": "full-game 1x2",
+      "line": null,
+      "selection": "away",
+      "stake": 4000,
+      "odds": 1.77,
+      "complete_odds": [
+        3.8,
+        3.1,
+        1.77
+      ],
+      "start_kst": "2026-10-11T22:00:00+09:00",
+      "deadline_kst": "2026-10-11T22:00:00+09:00",
+      "mode": "single",
+      "purchase_time_kst": null,
+      "potential_return": 7080,
+      "status": "pending"
+    },
+    {
+      "ticket_id": "2026-10-11-7757-draw-01",
+      "row": "7757",
+      "event_id": "SC1791744300000트루아AC마르세유",
+      "competition": "프랑스 리그1",
+      "sport": "football",
+      "home": "트루아AC",
+      "away": "마르세유",
+      "market": "full-game 1x2",
+      "line": null,
+      "selection": "draw",
+      "stake": 4000,
+      "odds": 3.7,
+      "complete_odds": [
+        3.1,
+        3.7,
+        1.8
+      ],
+      "start_kst": "2026-10-12T03:45:00+09:00",
+      "deadline_kst": "2026-10-11T23:00:00+09:00",
+      "mode": "single",
+      "purchase_time_kst": null,
+      "potential_return": 14800,
+      "status": "pending"
+    }
+  ],
+  "total_stake": 8000,
+  "cash_before": 13360,
+  "cash_after": 5360,
+  "pending_stake": 8000,
+  "status": "pending",
+  "new_deposit": false
+}
