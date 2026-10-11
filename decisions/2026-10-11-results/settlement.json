@@ -1,0 +1,20 @@
+{
+  "purchase_date_kst": "2026-10-10",
+  "settlement_date_kst": "2026-10-11",
+  "round": 120,
+  "purchase_confirmation": "decisions/2026-10-10-purchases/confirmation.json",
+  "basis": "Completed match results; not an account payment lookup",
+  "tickets": [
+    {"ticket_id":"2026-10-10-7289-away-01","espn_event_id":"401884777","home":"Augsburg","away":"Bayern Munich","score_home":2,"score_away":2,"status":"closed","selection":"away","stake":3000,"purchase_odds":1.14,"return":0,"profit":-3000,"source":"ESPN football daily schedule via sports-skills; FC Bayern post-match article","source_url":"https://fcbayern.com/de/news/2026/10/die-stimmen-zum-bundesliga-spiel-beim-fc-augsburg"},
+    {"ticket_id":"2026-10-10-7338-away-01","espn_event_id":"401878776","home":"Aston Villa","away":"Brentford","score_home":2,"score_away":2,"status":"closed","selection":"away","stake":1000,"purchase_odds":2.45,"return":0,"profit":-1000,"source":"ESPN football daily schedule via sports-skills; Brentford results","source_url":"https://www.brentfordfc.com/en/matches/mens/results/all/2026-27"},
+    {"ticket_id":"2026-10-10-7371-away-01","espn_event_id":"401907994","home":"Cleveland Guardians","away":"Chicago White Sox","score_home":2,"score_away":0,"status":"closed / Final","selection":"away","stake":2000,"purchase_odds":2.02,"return":0,"profit":-2000,"observed_at_kst":"2026-10-11T11:48:50+09:00","source":"ESPN scoreboard via sports-skills mlb get_scoreboard --date=2026-10-10","source_url":"https://www.espn.com/mlb/game/_/gameId/401907994/white-sox-guardians"},
+    {"ticket_id":"2026-10-10-7443-away-01","espn_event_id":"401876445","home":"Lorient","away":"Paris FC","score_home":1,"score_away":0,"status":"closed","selection":"away","stake":2000,"purchase_odds":2.07,"return":0,"profit":-2000,"source":"ESPN football daily schedule via sports-skills; Maxifoot final report","source_url":"https://www.maxifoot.fr/ligue-1/lorient-1-0-paris-fc-fini-foot-465427.htm"}
+  ],
+  "total_stake":8000,
+  "settled_stake":8000,
+  "pending_stake":0,
+  "total_return":0,
+  "profit":-8000,
+  "cash_before_settlement":13360,
+  "cash_after_settlement":13360
+}
